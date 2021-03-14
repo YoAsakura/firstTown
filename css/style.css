@@ -356,7 +356,7 @@ body {
   .page-header--facts {
     width: 100%;
     height: 680px;
-    background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../../image/fact_main.jpg");
+    background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/fact_main.jpg");
   }
 
   .page-header__heading-fact {
@@ -399,7 +399,7 @@ body {
 
   /* Стиль для маленькой плитки фактов */
   .facts__grid-element-min {
-    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../../image/first-aes.png");
+    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
     width: 405px; 
     height: 405px;
     padding: 40px;
@@ -417,7 +417,7 @@ body {
 
     /* Стиль для средней плитки фактов */
     .facts__grid-element-medium {
-      background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../../image/first-aes.png");
+      background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
       width: 830px; 
       height: 405px;
       padding: 40px;
@@ -436,7 +436,7 @@ body {
 
       /* Стиль для большой плитки фактов */
       .facts__grid-element-large {
-        background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../../image/first-aes.png");
+        background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
         width: 830px; 
         height: 830px;
         padding: 100px;
@@ -705,7 +705,7 @@ body {
     .page-header--facts-detail {
       width: 100%;
       height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../../image/fact_detail.png");
+      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/fact_detail.png");
     }
   
     .page-header__heading-fact-detail {
@@ -903,7 +903,7 @@ body {
     .page-header--personality {
       width: 100%;
       height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../../image/personality.png");
+      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/personality.png");
     }
 
     .page-header--personality .facts__wrapper {
