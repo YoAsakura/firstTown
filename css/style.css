@@ -657,22 +657,22 @@ body {
   }
 
   .page-footer__social-link--fb{
-    background: center center no-repeat url("/image/icon-fb.svg");
+    background: center center no-repeat url("../image/icon-fb.svg");
   }
   .page-footer__social-link--vk{
-    background: center center no-repeat url("/image/icon-vk.svg");
+    background: center center no-repeat url("../image/icon-vk.svg");
   }
   .page-footer__social-link--yt{
-    background: center center no-repeat url("/image/icon-youtube.svg");
+    background: center center no-repeat url("../image/icon-youtube.svg");
   }
   .page-footer__social-link--inst{
-    background: center center no-repeat url("/image/icon-inst.svg");
+    background: center center no-repeat url("../image/icon-inst.svg");
   }
 
   .page-footer__top-wrapper {
     width: 100%;
     height: 365px;
-    background: center bottom / contain repeat-x url("/image/footer-back-town.png")#fff;
+    background: center bottom / contain repeat-x url("../image/footer-back-town.png")#fff;
   }
 
   .page-footer-wrapper {
