@@ -106,8 +106,8 @@ body {
   
   img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
   }
   
   a {
@@ -356,7 +356,7 @@ body {
   .page-header--facts {
     width: 100%;
     height: 680px;
-    background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/fact_main.jpg");
+    background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../../image/fact_main.jpg");
   }
 
   .page-header__heading-fact {
@@ -376,7 +376,7 @@ body {
   .facts__wrapper {
     max-width: 1920px;
     margin: 0 auto;
-    padding: 80px 120px 170px 120px;
+    padding: 80px 120px 80px 120px;
   }
 
   .facts__desc {
@@ -384,7 +384,6 @@ body {
     font-size: 32px;
     line-height: 44px;
     color: #000;
-    margin-bottom: 60px;
   }
 
   .facts__grid-wrapper {
@@ -395,11 +394,12 @@ body {
     grid-row-gap: 20px;
     grid-column-gap: 20px;
     justify-content: center;
+    margin-top: 60px;
   }
 
   /* Стиль для маленькой плитки фактов */
   .facts__grid-element-min {
-    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
+    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../../image/first-aes.png");
     width: 405px; 
     height: 405px;
     padding: 40px;
@@ -417,7 +417,7 @@ body {
 
     /* Стиль для средней плитки фактов */
     .facts__grid-element-medium {
-      background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
+      background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../../image/first-aes.png");
       width: 830px; 
       height: 405px;
       padding: 40px;
@@ -436,7 +436,7 @@ body {
 
       /* Стиль для большой плитки фактов */
       .facts__grid-element-large {
-        background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
+        background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../../image/first-aes.png");
         width: 830px; 
         height: 830px;
         padding: 100px;
@@ -555,6 +555,7 @@ body {
     font-size: 34px;
     line-height: 46px;
     font-weight: 400;
+    margin-bottom: 20px;
   }
 
   .callback__mail-link {
@@ -656,22 +657,22 @@ body {
   }
 
   .page-footer__social-link--fb{
-    background: center center no-repeat url("../image/icon-fb.svg");
+    background: center center no-repeat url("/image/icon-fb.svg");
   }
   .page-footer__social-link--vk{
-    background: center center no-repeat url("../image/icon-vk.svg");
+    background: center center no-repeat url("/image/icon-vk.svg");
   }
   .page-footer__social-link--yt{
-    background: center center no-repeat url("../image/icon-youtube.svg");
+    background: center center no-repeat url("/image/icon-youtube.svg");
   }
   .page-footer__social-link--inst{
-    background: center center no-repeat url("../image/icon-inst.svg");
+    background: center center no-repeat url("/image/icon-inst.svg");
   }
 
   .page-footer__top-wrapper {
     width: 100%;
     height: 365px;
-    background: center bottom / contain repeat-x url("../image/footer-back-town.png")#fff;
+    background: center bottom / contain repeat-x url("/image/footer-back-town.png")#fff;
   }
 
   .page-footer-wrapper {
@@ -704,7 +705,7 @@ body {
     .page-header--facts-detail {
       width: 100%;
       height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/fact_detail.png");
+      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../../image/fact_detail.png");
     }
   
     .page-header__heading-fact-detail {
@@ -802,6 +803,18 @@ body {
       font-size: 18px;
       line-height: 24px;
       color: #6B7279;
+      padding-left: 45px;
+      position: relative;
+    }
+
+    .back-page__link::before {
+      content: "";
+      position: absolute;
+      width: 30px;
+      height: 20px;
+      top: calc(50% - 10px);
+      left: 0;
+      background: center center no-repeat url('../image/icon-arrow-left.svg');
     }
 
     /* Стили слайдера (детальная страница фактов) */
@@ -884,3 +897,204 @@ body {
     /* --------------------------*/
 
     /* --------------------------*/
+
+    /* Стили для страницы личностей */
+
+    .page-header--personality {
+      width: 100%;
+      height: 680px;
+      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../../image/personality.png");
+    }
+
+    .page-header--personality .facts__wrapper {
+      padding: 80px 120px 60px 120px;
+    }
+
+    .personality {
+      width: 100%;
+    }
+
+    .personality__areas {
+      max-width: 1920px;
+      margin: 0 auto;
+      padding: 0 120px;
+    }
+
+    .personality__areas-list {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .personaluty__areas-item {
+      width: 227px;
+      height: 66px;
+      background-color: #B3C8DF;
+      transform: skew(-30deg);
+      margin: 0 15px 20px 15px;
+    }
+
+    .personality__areas-link {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 20px;
+      padding-bottom: 21px;
+      font-size: 18px;
+      line-height: 24px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .personaluty__areas-item--active {
+      background-color: #3697ED;
+    }
+
+
+
+    .personality__box {
+      display: flex;
+      flex-direction: column;
+      color: #000;
+      padding: 0 0 150px 0;
+    }
+
+    .person {
+      width: 100%;
+    }
+
+    .person__wrapper {
+      margin: 0 auto;
+      padding: 30px 120px 120px 120px;
+      max-width: 1920px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+
+    .person:nth-child(2n) .person__wrapper {
+      justify-content: flex-end;
+      align-self: flex-end;
+    }
+
+    .person:nth-child(2n) {
+      background-color: #E3E8EF;
+    }
+
+    .personality-left-desc {
+      padding-top: 150px;
+      width: 30%;
+      margin-right: 60px;
+    }
+
+    .personality-right-photo-desc {
+      width: 30%;
+      position: relative;
+      height: 500px;
+    }
+
+    .personality__desc-heading {
+      font-size: 34px;
+      line-height: 42px;
+      font-weight: 400;
+      color: #015AB7;
+      margin-bottom: 30px;
+      padding-left: 100px;
+      position: relative;
+    }
+
+    .personality__desc-heading::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 70px;
+      top: calc(50% - 35px);
+      left: 0;
+      background: center center / cover no-repeat url('../image/icon-person-name.png');
+    }
+
+    .personality__desc {
+      font-size: 18px;
+      line-height: 24px;
+      font-weight: 300;
+      margin-bottom: 10px;
+      padding-left: 100px;
+      position: relative;
+    }
+
+    .personality__desc::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      top: calc(50% - 50px);
+      left: 0;
+      background: center center / cover no-repeat url('../image/icon-person-attainment.png');
+    }
+
+    
+    .personality__img-box {
+      width: 500px;
+      height: 500px;
+    }
+
+    .personality__name-box {
+      position: absolute;
+      bottom: 0;
+      left: -30px;
+      min-width: 400px;
+      min-height: 80px;
+      background-color: #B3C8DF;
+      transform: skew(-30deg);
+      padding: 10px 40px;
+      z-index: 3;
+    }
+
+    .personality__name-box p,  .personality__name-box h4 {
+      transform: skew(30deg);
+    }
+
+    .personality__name {
+      font-size: 30px;
+      line-height: 37px;
+      font-weight: 700;
+      color: #015AB7;
+      text-align: center;
+      margin-bottom: 5px;
+    }
+
+    .personality__date {
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 400;
+      color: #515151;
+      text-align: center;
+    }
+
+    .personality-right-photo-desc::before {
+      content: "";
+      position: absolute;
+      width: 80px;
+      height: 250px;
+      bottom: -40px;
+      left: 370px;
+      background-color: #015AB7;
+      transform: skew(-30deg);
+      z-index: 2;
+    }
+
+    .personality-right-photo-desc::after {
+      content: "";
+      position: absolute;
+      width: 25px;
+      height: 250px;
+      bottom: -100px;
+      left: 290px;
+      background-color: #DC3333;
+      transform: skew(-30deg);
+      z-index: 2;
+    }
+
+     /* --------------------------*/
