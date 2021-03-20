@@ -135,7 +135,7 @@ body {
   p {
     margin: 0;
   }
-  
+
   a {font-family: 'Aeroport', arial;}
 
   .btn {
@@ -178,10 +178,11 @@ body {
   }
 
   .page-header__logo-image-link {
-    width: 388px;
-    height: 102px;
-    background: center center no-repeat url("../image/logo-image.png");
+    width: 24vw;
+    height: 6vw;
+    background: center center / contain no-repeat url("../image/logo-image.png");
     z-index: 1;
+    display: block;
   }
 
   .page-header__nav-wrapper {
@@ -356,7 +357,7 @@ body {
   .page-header--facts {
     width: 100%;
     min-height: 680px;
-    background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/fact_main.jpg");
+    background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_main.jpg");
   }
 
   .page-header__heading-fact {
@@ -399,7 +400,7 @@ body {
 
   /* Стиль для маленькой плитки фактов */
   .facts__grid-element-min {
-    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
+    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
     width: 405px; 
     height: 405px;
     padding: 40px;
@@ -417,7 +418,7 @@ body {
 
     /* Стиль для средней плитки фактов */
     .facts__grid-element-medium {
-      background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
+      background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
       width: 830px; 
       height: 405px;
       padding: 40px;
@@ -436,7 +437,7 @@ body {
 
       /* Стиль для большой плитки фактов */
       .facts__grid-element-large {
-        background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center no-repeat url("../image/first-aes.png");
+        background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
         width: 830px; 
         height: 830px;
         padding: 100px;
@@ -458,6 +459,7 @@ body {
     height: 65px;
     transform: skew(-30deg);
     border: 1px solid #fff;
+    margin-left: 20px;
   }
 
   .facts__link-detail-link{
@@ -488,6 +490,7 @@ body {
     margin: 0 auto;
     margin-top: 100px;
   }
+  
   /* --------------------------*/
 
   .facts__button-detail-link {
@@ -496,11 +499,10 @@ body {
     align-items: center;
     font-size: 25px;
     line-height: 34px;
-    padding-top: 20px;
-    padding-bottom: 17px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     text-transform: uppercase;
     font-weight: 500;
-    padding: 35px 0 35px 0;
   }
 
   /* Cтили форм*/
@@ -656,16 +658,16 @@ body {
   }
 
   .page-footer__social-link--fb{
-    background: center center no-repeat url("../image/icon-fb.svg");
+    background: center center no-repeat url("../image/icon-fb.png");
   }
   .page-footer__social-link--vk{
-    background: center center no-repeat url("../image/icon-vk.svg");
+    background: center center no-repeat url("../image/icon-vk.png");
   }
   .page-footer__social-link--yt{
-    background: center center no-repeat url("../image/icon-youtube.svg");
+    background: center center no-repeat url("../image/icon-youtube.png");
   }
   .page-footer__social-link--inst{
-    background: center center no-repeat url("../image/icon-inst.svg");
+    background: center center no-repeat url("../image/icon-inst.png");
   }
 
   .page-footer__top-wrapper {
@@ -704,7 +706,7 @@ body {
     .page-header--facts-detail {
       width: 100%;
       min-height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/fact_detail.png");
+      background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail.png");
     }
   
     .page-header__heading-fact-detail {
@@ -853,7 +855,7 @@ body {
   padding: 16px;
   color: #000;
   font-size: 30px;
-  transition: 0.6s ease;
+  transition: 0.4s ease;
   border-radius: 0 3px 3px 0;
 }
 .slider .next {
@@ -902,7 +904,7 @@ body {
     .page-header--personality {
       width: 100%;
       min-height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/personality.png");
+      background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/personality.png");
     }
 
     .page-header--personality .facts__wrapper {
@@ -1108,12 +1110,7 @@ body {
     .page-header--calendar {
       width: 100%;
       min-height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/calendar_main.png");
-    }
-
-    .page-header__heading-box-calendar {
-      max-width: 1920px;
-      margin: 0 auto;
+      background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/calendar_main.png");
     }
 
     .page-header__heading-calendar {
@@ -1127,12 +1124,19 @@ body {
       padding-left: 262px;
       }
 
+      .page-header__wrapper {
+        max-width: 1920px;
+        height: 680px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+      }
+
       .page-header__month-box {
-      max-width: 1920px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: flex-end;
-      align-self: flex-end;
+       padding-right: 220px;
+       padding-bottom: 60px;
+       align-self: flex-end;
+       margin-top: auto;
       }
 
       .page-header__month-wrapper {
@@ -1168,24 +1172,97 @@ body {
       }
 
       .calendar__box {
-        display: flex;
-        flex-direction: row;
-        color: #000;
+          display: grid;
+          grid-auto-flow: dense;
+          grid-template-rows: minmax(290px, max-content);
+          grid-template-columns: repeat(auto-fit, minmax(290px, max-content));
+          grid-row-gap: 60px;
+          grid-column-gap: 80px;
+          justify-content: center;
+          color: #000;
+          z-index: -4;
       }
 
       .calendar__item {
+        padding: 20px 25px;
         width: 290px;
-        height: 290px;
+        min-height: 290px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        position: relative;
         border: 4px solid #B3C8DF;
         border-radius: 12px;
+        grid-row: span 1;
+        grid-column: span 1;
       }
+
+      .calendar__item::before {
+        content: "";
+        position: absolute;
+        width: 220px;
+        height: 220px;
+        top: calc(50% - 110px);
+        left: 90px;
+        background: center center no-repeat url(../image/calendar-back-item.png);
+        z-index: 3;
+      }
+
+      .calendar__item::after {
+        content: "";
+        position: absolute;
+        width: 30px;
+        height: 155px;
+        top: calc(50% - 77.5px);
+        right: -15px;
+        z-index: 2;
+        background: #fff;
+      }
+
+      .calendar__heading {
+        font-size: 18px;
+        line-height: 24px;
+        font-weight: 700;
+        z-index: 4;
+        margin-bottom: 40px;
+      }
+
+      .calendar__day-desc {
+        font-size: 55px;
+        line-height: 20px;
+        font-weight: 500;
+        z-index: 4;
+        display: inline-block;
+      }
+
+      .calendar__month-desc {
+        font-size: 16px;
+        line-height: 21px;
+        font-weight: 500;
+        display: inline-block;
+      }
+
+      .calendar__event-count {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        background: #B3C8DF;
+        color: #fff;
+        width: 65%;
+        height: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-top-right-radius: 12px;
+      }
+
     /* --------------------------*/
 
     /*Стили для страницы новостей*/
     .page-header--news {
       width: 100%;
       min-height: 680px;
-      background: linear-gradient(rgba(4, 20, 116, 0.6), rgba(4, 20, 116, 0.6)), center center / cover no-repeat url("../image/news-back.png");
+      background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/news-back.png");
     }
 
     .page-header__heading-news {
