@@ -1,4 +1,17 @@
 @media (max-width: 768px) {
+    /* Главная */ 
+
+    .index-main-page__link-list {
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center;
+      width: 100%;
+      z-index: 2;
+  }
+
+
+    /* --------------------------*/
+
     /* Факты */ 
     .page-footer {
         display: none;
@@ -118,11 +131,15 @@
          width: 50px;
          height: 50px;   
          padding: 0;
-         background: center center / 20px 20px no-repeat url("../image/icon-burger-open.svg");
          border: 0;
          outline: 0;
          text-decoration: none;
+         background: center center / 20px 20px no-repeat url("../image/icon-burger-open.svg");
          z-index: 6;
+        }
+
+        .page-header__burger-btn--close {
+          background: center center / 30px 30px no-repeat url("../image/icon-burger-close.svg");
         }
 
         .page-header__logo-box {
@@ -178,20 +195,29 @@
             display: none;
         }
 
-        .page-header__logo-box--blue-back {
-        background-color: #015AB7;
-        }
-
-
         .page-header__nav--mobile-open {
             width: 100%;
             background-color: #015AB7;
             z-index: 5;
             position: absolute;
-            top: 120px;
+            top: 0;
             left: 0;
+            padding-top: 120px;
             display: block;
+            animation: MobileDown 1s ease-in-out forwards;
         }
+
+        .page-header__nav--mobile-close {
+          width: 100%;
+          background-color: #015AB7;
+          z-index: 5;
+          position: absolute;
+          top: 0;
+          left: 0;
+          padding-top: 120px;
+          display: block;
+          animation: MobileClose 1s ease-in-out forwards;
+      }
 
         .page-header__nav-list {
             display: flex;
@@ -241,7 +267,7 @@
         .callback--facts {
             display: none;
         }
-
+ /* --------------------------*/
 }
 
 
@@ -258,5 +284,29 @@
 
 .page-header__language-control-link {
     font-size: 1vw;
+}
+}
+
+@media (min-width: 768px){
+.page-header__nav-link::before{
+  position: absolute;
+  content: "";
+  width: 100px;
+  height: 50px;
+  top: calc(50% - 25px);
+  left: -33px;
+  background: linear-gradient(120deg, #015AB8 70% , transparent 60% 100%), linear-gradient(to right, #015AB8 60%,  transparent 60% 100%);
+  visibility: hidden;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  z-index: -1;
+}
+
+.page-header__nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scale(1);
+  transform: scale(1);
 }
 }
