@@ -410,8 +410,8 @@ a {
 /* Стиль для маленькой плитки фактов */
 .facts__grid-element-min {
   background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
-  width: 405px;
-  height: 405px;
+  min-width: 405px;
+  min-height: 405px;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -447,8 +447,8 @@ a {
 /* Стиль для средней плитки фактов */
 .facts__grid-element-medium {
   background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
-  width: 830px;
-  height: 405px;
+  min-width: 830px;
+  min-height: 405px;
   padding: 40px;
   display: flex;
   flex-direction: column;
@@ -484,8 +484,8 @@ a {
 /* Стиль для большой плитки фактов */
 .facts__grid-element-large {
   background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
-  width: 830px;
-  height: 830px;
+  min-width: 830px;
+  min-height: 830px;
   padding: 100px;
   display: flex;
   flex-direction: column;

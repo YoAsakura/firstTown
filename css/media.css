@@ -127,8 +127,8 @@
 
   .facts__grid-element-min {
     background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
-    width: 140px;
-    height: 140px;
+    min-width: 140px;
+    min-height: 140px;
     padding: 10px;
   }
 
@@ -150,8 +150,8 @@
 
   .facts__grid-element-medium {
     background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
-    width: 300px;
-    height: 140px;
+    min-width: 300px;
+    min-height: 140px;
     padding: 20px;
   }
 
@@ -173,8 +173,8 @@
 
   .facts__grid-element-large {
     background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
-    width: 300px;
-    height: 300px;
+    min-width: 300px;
+    min-height: 300px;
     padding: 40px;
   }
 
@@ -815,6 +815,8 @@
 .calendar__item-evenst {
   padding: 23px 48px;
   height: 313px;
+  grid-row: span 1;
+  grid-column: span 4;
 }
 
 .calendar__item-evenst {
