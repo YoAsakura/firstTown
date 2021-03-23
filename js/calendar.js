@@ -1,4 +1,4 @@
-/* Мобильное меню */
+/* Календарь */
 
 const CalendarItemArr = document.querySelectorAll('.calendar__item')
 const CalendarEventsArr = document.querySelectorAll('.calendar__item-evenst')
