@@ -953,6 +953,11 @@
   .page-header__language-control-link {
     font-size: 18px;
   }
+
+  .page-header__logo-image-link {
+    width: 388px;
+    height: 120px;
+}
 }
 
 @media (min-width: 768px) and (max-width: 1920px) {
