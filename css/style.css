@@ -407,6 +407,15 @@ a {
   margin-top: 60px;
 }
 
+.facts__grid-wrapper div {
+  background-size: 100% 100%;
+  transition: background-size 0.3s ease-in;
+}
+
+.facts__grid-wrapper div:hover {
+  background-size: 120% 120%;
+}
+
 /* Стиль для маленькой плитки фактов */
 .facts__grid-element-min {
   background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
