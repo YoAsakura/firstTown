@@ -408,12 +408,12 @@ a {
 }
 
 .facts__grid-wrapper div {
-  background-size: 100% 100%;
+  background-size: 100% auto;
   transition: background-size 0.6s ease-in;
 }
 
 .facts__grid-wrapper div:hover {
-  background-size: 110% 110%;
+  background-size: 110% auto;
 }
 
 /* Стиль для маленькой плитки фактов */
