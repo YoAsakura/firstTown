@@ -93,7 +93,44 @@ body {
     padding: 0;
     margin: 0;
   }
-  
+
+  .index-body {
+    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4));
+  }
+
+  .video-back {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -3;
+    background-size: cover;
+}
+
+.video-back > video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    width: auto;
+    height: auto; 
+    z-index: -3;
+}
+
+ @supports (object-fit: cover) {
+  .video-back > video {
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         object-fit: cover;
+         z-index: -3;
+     }
+ }
+
   html {
     box-sizing: border-box;
   }
@@ -173,9 +210,6 @@ body {
 
 
   /* Стили Header */
-  .page-header {
-    background-color: #041474;
-  }
 
   .page-header__language-control {
     z-index: 1;
@@ -936,7 +970,7 @@ body {
       max-width: 1920px;
       display: flex;
       flex-direction: row;
-      justify-content: center;
+      justify-content: space-evenly;
     }
 
     .person:nth-child(2n) .person__wrapper .personality-right-photo-desc{
@@ -1013,8 +1047,8 @@ body {
     .personality__name-box {
       position: absolute;
       bottom: 0;
-      left: -30px;
-      min-width: 400px;
+      left: 0;
+      width: 432px;
       min-height: 80px;
       background-color: #B3C8DF;
       transform: skew(-30deg);
@@ -1049,7 +1083,7 @@ body {
       width: 80px;
       height: 250px;
       bottom: -40px;
-      left: 370px;
+      left: 330px;
       background-color: #015AB7;
       transform: skew(-30deg);
       z-index: 2;
@@ -1061,7 +1095,7 @@ body {
       width: 25px;
       height: 250px;
       bottom: -100px;
-      left: 290px;
+      left: 240px;
       background-color: #DC3333;
       transform: skew(-30deg);
       z-index: 2;
