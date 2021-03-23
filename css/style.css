@@ -409,7 +409,7 @@ a {
 
 .facts__grid-wrapper div {
   background-size: 100% 100%;
-  transition: background-size 0.3s ease-in;
+  transition: background-size 0.6s ease-in;
 }
 
 .facts__grid-wrapper div:hover {
