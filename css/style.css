@@ -1316,6 +1316,10 @@ a {
   z-index: 10;
 }
 
+.calendar__item--active .calendar__event-count {
+  background: #fff;
+}
+
 .calendar__item--active::after {
   content: "";
   position: absolute;
