@@ -11,7 +11,7 @@
   }
 
   .index-main-page {
-    min-height: 600px;
+    min-height: 100%;
   }
 
   .index-main-page__heading {
@@ -897,7 +897,7 @@
 
 @media (min-width: 768px) {
   .index-main-page {
-    min-height: 1080px;
+    min-height: 100%;
   }
 
   .page-header__burger-btn {

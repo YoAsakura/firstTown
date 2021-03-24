@@ -94,22 +94,28 @@ body {
   margin: 0;
 }
 
-.index-body {
-  background: rgba(1, 90, 184, 0.4);
-}
-
 .video-back {
   position: fixed;
   top: 0;
+  left: 0;
   right: 0;
   bottom: 0;
-  left: 0;
-  overflow: hidden;
+  width: 100%;
+  height: 100%;
   z-index: -3;
-  background-size: cover;
 }
 
-.video-back>video {
+.video-back::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4));
+}
+
+.video-back > video {
   position: absolute;
   top: 0;
   left: 0;
@@ -121,7 +127,7 @@ body {
 }
 
 @supports (object-fit: cover) {
-  .video-back>video {
+  .video-back > video {
     top: 0;
     left: 0;
     width: 100%;
