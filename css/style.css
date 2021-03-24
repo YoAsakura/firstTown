@@ -1318,6 +1318,7 @@ a {
 
 .calendar__item--active .calendar__event-count {
   background: #fff;
+  color: #000;
 }
 
 .calendar__item--active::after {
