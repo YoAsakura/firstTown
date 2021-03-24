@@ -1312,7 +1312,19 @@ a {
 }
 
 .calendar__item--active {
-  border: 4px solid #EF192C;
+  border: 4px solid #fff;
+  z-index: 10;
+}
+
+.calendar__item--active::after {
+  content: "";
+  position: absolute;
+  width: 30px;
+  height: 155px;
+  top: calc(50% - 77.5px);
+  right: -15px;
+  z-index: 2;
+  background: #DDE6F1;
 }
 
 .calendar__event-active-background {
@@ -1374,6 +1386,7 @@ a {
   justify-content: center;
   align-items: center;
   border-top-right-radius: 12px;
+  border-bottom-left-radius: 6px;
   z-index: -1;
 }
 
