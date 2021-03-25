@@ -343,6 +343,14 @@ a {
   background: #041474;
 }
 
+.index-main-page__link-item-fact:hover::before {
+  animation: IndexButtonLevitationBlue 8s linear infinite;
+}
+
+.index-main-page__link-item-fact:hover::after {
+  animation: IndexButtonLevitationRed 8s linear infinite;
+}
+
 .index-main-page__link-item-fact::before {
   position: absolute;
   content: "";
@@ -1235,6 +1243,8 @@ a {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  position: relative;
+  min-width: 530px;
 }
 
 
@@ -1242,7 +1252,7 @@ a {
   font-size: 30px;
   line-height: 34px;
   font-weight: 400;
-  margin-right: 25px;
+  margin: 0 12px;
   text-transform: uppercase;
 }
 
@@ -1276,7 +1286,7 @@ a {
 
 .calendar__item {
   padding: 20px 25px;
-  width: 290px;
+  min-width: 290px;
   min-height: 290px;
   display: flex;
   flex-direction: column;
@@ -1288,6 +1298,17 @@ a {
   grid-row: span 1;
   grid-column: span 1;
 }
+
+.calendar__item-evenst {
+  padding: 55px 105px;
+  width: 100%;
+  grid-row: span 1;
+  grid-column: 1 / 5;
+  z-index: 10;
+  background: #fff;
+  display: none;
+}
+
 
 .calendar__item::before {
   content: "";
@@ -1379,6 +1400,26 @@ a {
   display: inline-block;
 }
 
+.page-header__month-arrow-prev {
+  cursor: pointer;
+  width: auto;
+  padding: 8px;
+  font-size: 30px;
+  position: absolute;
+  top: calc(50% - 21px);
+  left: -30px;
+}
+
+.page-header__month-arrow-next {
+  cursor: pointer;
+  width: auto;
+  padding: 8px;
+  font-size: 30px;
+  position: absolute;
+  top: calc(50% - 21px);
+  right: -30px;
+}
+
 .calendar__event-count {
   position: absolute;
   left: 0;
@@ -1395,27 +1436,16 @@ a {
   z-index: -1;
 }
 
-
-.calendar__item-evenst {
-  padding: 55px 105px;
-  width: 100%;
-  height: 605px;
-  grid-row: span 1;
-  grid-column: span 4;
-  z-index: 10;
-  background: #fff;
-  display: none;
-}
-
 .event-wrapper {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 100%;
+  padding: 50px;
 }
 
 .event {
-  width: 48%;
-  margin-right: 20px;
+  width: 49%;
   color: #fff;
   padding: 30px;
   position: relative;
@@ -1463,11 +1493,11 @@ a {
 }
 
 .event--blue {
-  background: linear-gradient(90deg, #015AB7 50.01%, rgba(196, 196, 196, 0) 179.15%), -130% center / cover no-repeat url("../image/event-1.jpg");
+  background: linear-gradient(to right, #015AB7 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-1.jpg");
 }
 
 .event--red {
-  background: linear-gradient(90deg, #EF192C 50.01%, rgba(196, 196, 196, 0) 179.15%), -130% center / cover no-repeat url("../image/event-2.jpg") ;
+  background: linear-gradient(to right, #EF192C 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-2.jpg") ;
 }
 
 /* --------------------------*/
@@ -1675,6 +1705,71 @@ a {
   100% {
     top: -700px;
     animation-timing-function: ease;
+  }
+}
+
+@keyframes IndexButtonLevitationBlue{
+  0% {
+    bottom: -32px;
+    left: 100px;
+    animation-timing-function: linear;
+  }
+
+  25% {
+    bottom: -42px;
+    left: 110px;
+    animation-timing-function: linear;
+  }
+
+  50% {
+    bottom: -22px;
+    left: 110px;
+    animation-timing-function: linear;
+  }
+
+  75% {
+    bottom: -42px;
+    left: 90px;
+    animation-timing-function: linear;
+  }
+
+  100% {
+    bottom: -32px;
+    left: 100px;
+    animation-timing-function: linear;
+  }
+}
+
+@keyframes IndexButtonLevitationRed{
+  0% {
+    bottom: 16px;
+    left: 55px;
+    animation-timing-function: linear;
+  }
+
+  25% {
+    bottom: 26px;
+    left: 65px;
+    animation-timing-function: linear;
+  }
+
+  50% {
+    bottom: 6px;
+    left: 65px;
+    animation-timing-function: linear;
+  }
+
+  75% {
+    bottom: 6px;
+    left: 45px;
+    animation-timing-function: linear;
+  }
+
+
+  100% {
+    bottom: 16px;
+    left: 55px;
+    animation-timing-function: linear;
   }
 }
 

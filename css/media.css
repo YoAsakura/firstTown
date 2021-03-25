@@ -618,10 +618,6 @@
     min-height: 280px;
   }
 
-  .page-header__month-box {
-    display: none;
-  }
-
   .page-header__heading-news {
     font-size: 45px;
     line-height: 52px;
@@ -755,7 +751,7 @@
 
 .calendar__item {
   padding: 10px 10px;
-  width: 130px;
+  min-width: 130px;
   min-height: 130px;
 }
 
@@ -788,7 +784,7 @@
   width: 100px;
   height: 100px;
   top: calc(50% - 50px);
-  left: 35px;
+  left: 30%;
   background: center center / 100px 100px no-repeat url(../image/calendar-back-item.png);
   z-index: 3;
 }
@@ -799,13 +795,9 @@
   width: 100px;
   height: 100px;
   top: calc(50% - 50px);
-  left: 35px;
+  left: 30%;
   background: center center / 100px 100px no-repeat url(../image/calendar-back-item-active.png);
   z-index: 3;
-}
-
-.calendar__item--active {
-  grid-column: span 4;
 }
 
 .calendar__event-count {
@@ -813,31 +805,15 @@
 }
 
 .calendar__item-evenst {
-  padding: 23px 48px;
-  height: 313px;
-  grid-row: span 1;
-  grid-column: span 4;
+  padding: 0 0;
 }
 
-.calendar__item-evenst {
-  height: 731px;
-  margin-bottom: 35px;
-}
-
-.event {
-  width: 100%;
-  height: 313px;
-  margin-right: 0;
-  margin-bottom: 35px;
-  padding: 20px;
+.event:last-child {
+  margin-bottom: 0;
 }
 
 .calendar__item-evenst:last-child {
   margin-bottom: 0;
-}
-
-.event-wrapper {
-  flex-direction: column;
 }
 
 .event-heading {
@@ -848,15 +824,122 @@
   margin-bottom: 30px;
 }
 
+.event-date {
+  font-size: 12px;
+  line-height: 16px;
+  float: right;
+  min-height: auto;
+  display: block;
+}
+
 .event-desc {
   font-size: 8px;
   line-height: 10px;
   margin-bottom: 10px;
 }
 
+.event-science-desc {
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.event-wrapper {
+  padding: 20px;
+}
+
+.page-header__month-box {
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+  align-self: center;
+  margin-top: 0;
+}
+
+.page-header__month-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-width: 280px;
+}
+
+.page-header__month {
+  font-size: 12px;
+  line-height: 24px;
+  font-weight: 400;
+  margin: 0 12px;
+  text-transform: uppercase;
+}
+
+.page-header__month--active {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 700;
+}
+
  /* --------------------------*/
  
 }
+
+@media (max-width: 520px){
+.calendar__item-evenst {
+  padding: 0 0;
+  grid-row: span 1;
+  grid-column: 1 / 3;
+}
+.event-wrapper {
+  flex-direction: column;
+}
+
+.event {
+  width: 100%;
+  min-height: 313px;
+  margin-right: 0;
+  margin-bottom: 35px;
+  padding: 20px;
+}
+}
+
+@media (min-width: 520px) and (max-width: 679px){
+  .calendar__item-evenst {
+    padding: 0 0;
+    grid-row: span 1;
+    grid-column: 1 / 4;
+  }
+  }
+
+  @media (min-width: 679px) and (max-width: 768px){
+    .calendar__item-evenst {
+      padding: 0 0;
+      grid-row: span 1;
+      grid-column: 1 / 5;
+    }
+    }
+
+    @media (min-width: 1060px) and (max-width: 1530px){
+      .calendar__item-evenst {
+        padding: 0 0;
+        grid-row: span 1;
+        grid-column: 1 / 3;
+      }
+      }
+
+      @media (min-width: 1530px) and (max-width: 1920px){
+        .calendar__item-evenst {
+          padding: 0 0;
+          grid-row: span 1;
+          grid-column: 1 / 4;
+        }
+        }
+
+        @media (min-width: 1920px){
+          .calendar__item-evenst {
+            padding: 0 0;
+            grid-row: span 1;
+            grid-column: 1 / 5;
+          }
+          }
 
 @media (max-width: 1440px) {
   .person__wrapper {
