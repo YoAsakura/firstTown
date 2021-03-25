@@ -8,41 +8,51 @@ const CalendarBack = document.querySelector('.calendar__event-active-background'
 for (let i = 0; i < CalendarItemArr.length; i++) {
     CalendarItemArr[i].addEventListener("click", function () {
         if (!CalendarEventsArr[i]) {} else {
-        CalendarItemArr[i].classList.add('calendar__item--active');
-    }
-         CalendarEventsArr.forEach(function (item) {
-            item.style.display = "none";
-        });
+            CalendarItemArr[i].classList.add('calendar__item--active');
+        }
 
         if (!CalendarEventsArr[i]) {} else {
-            CalendarEventsArr[i].style.display = "block";
+            CalendarEventsArr[i].classList.add('events-show');
             CalendarBack.style.display = "block";
         }
     });
 }
 
-CalendarBack.addEventListener("click", function () {
-
+function eventHidden() {
     CalendarEventsArr.forEach(function (item) {
-        item.style.display = "none";
+        item.classList.remove('events-show');
+        item.classList.remove('events-hidden');
     });
 
     CalendarItemArr.forEach(function (item) {
         item.classList.remove('calendar__item--active');
     });
-    
+
     CalendarBack.style.display = "none";
+}
+
+CalendarBack.addEventListener("click", function () {
+
+    for (let i = 0; i < CalendarEventsArr.length; i++) {
+        if (CalendarEventsArr[i].classList.contains('events-show') == true) {
+            CalendarEventsArr[i].classList.add('events-hidden');
+            break
+        }
+    };
+
+    setTimeout(eventHidden, 700);
 });
 
 window.addEventListener("keydown", function (event) {
     if (event.keyCode === 27) {
-        CalendarBack.style.display = "none";
-        CalendarEventsArr.forEach(function (item) {
-            item.style.display = "none";
-            CalendarItemArr.forEach(function (item) {
-                item.classList.remove('calendar__item--active');
-            });
-        });
+
+        for (let i = 0; i < CalendarEventsArr.length; i++) {
+            if (CalendarEventsArr[i].classList.contains('events-show') == true) {
+                CalendarEventsArr[i].classList.add('events-hidden');
+                setTimeout(eventHidden, 700);
+                break
+            }
+        };
     }
 });
 
@@ -56,20 +66,24 @@ for (let i = 0; i < monthItem.length; i++) {
     }
 }
 
-mothNext.addEventListener('click', nextMoth); 
-mothPrev.addEventListener('click', prevMoth); 
+mothNext.addEventListener('click', nextMoth);
+mothPrev.addEventListener('click', prevMoth);
 
-function prevMoth(){
+function prevMoth() {
     monthItem[mothIndex].classList.remove('page-header__month--active');
-    mothIndex--; 
-    if (mothIndex == -1) {mothIndex = (monthItem.length - 1) };
+    mothIndex--;
+    if (mothIndex == -1) {
+        mothIndex = (monthItem.length - 1)
+    };
     monthItem[mothIndex].classList.add('page-header__month--active');
 }
 
-function nextMoth(){
+function nextMoth() {
     monthItem[mothIndex].classList.remove('page-header__month--active');
-    mothIndex++; 
-    if (mothIndex == (monthItem.length)) {mothIndex = 0};
+    mothIndex++;
+    if (mothIndex == (monthItem.length)) {
+        mothIndex = 0
+    };
     monthItem[mothIndex].classList.add('page-header__month--active');
 }
 

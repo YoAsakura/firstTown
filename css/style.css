@@ -205,6 +205,10 @@ a {
   border: 1px solid #fff;
 }
 
+.hidden {
+  display: none;
+}
+
 /* Hidden h1-h6 heading */
 .visually-hidden {
   position: absolute;
@@ -1307,8 +1311,17 @@ a {
   z-index: 10;
   background: #fff;
   display: none;
+  overflow: hidden;
+  animation: eventDown 0.7s ease-in-out forwards;
 }
 
+.events-show {
+  display: block;
+}
+
+.events-hidden {
+  animation: eventHidden 0.7s ease-in-out forwards;
+}
 
 .calendar__item::before {
   content: "";
@@ -1683,6 +1696,30 @@ a {
 /* --------------------------*/
 
 /* Правила анимаций*/
+
+@keyframes eventDown {
+  0% {
+    height: 0;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    height: 100%;
+    animation-timing-function: ease-in-out;
+  }
+}
+
+@keyframes eventHidden {
+  0% {
+    height: 100%;
+    animation-timing-function: ease-in-out;
+  }
+
+  100% {
+    height: 0;
+    animation-timing-function: ease-in-out;
+  }
+}
 
 @keyframes MobileDown {
   0% {
