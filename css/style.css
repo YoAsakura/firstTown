@@ -1258,6 +1258,7 @@ a {
   font-weight: 400;
   margin: 0 12px;
   text-transform: uppercase;
+  transition: font-size 0.4s ease-in-out;
 }
 
 .page-header__month--active {
