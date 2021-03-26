@@ -112,7 +112,7 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4));
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4));
 }
 
 .video-back > video {
@@ -145,10 +145,6 @@ html {
 *::before,
 *::after {
   box-sizing: inherit;
-}
-
-*:focus {
-  outline: 2px solid #0024FF;
 }
 
 img {
@@ -223,10 +219,6 @@ a {
 
 /* Стили Header */
 
-.page-header__language-control {
-  z-index: 1;
-}
-
 .page-header__logo-image-link {
   width: 20vw;
   height: 6vw;
@@ -258,10 +250,6 @@ a {
 .page-header__nav-link {
   text-transform: uppercase;
   position: relative;
-}
-
-.page-header__language-control-link {
-  text-transform: uppercase;
 }
 
 .lang-active {
@@ -347,14 +335,6 @@ a {
   background: #041474;
 }
 
-.index-main-page__link-item-fact:hover::before {
-  animation: IndexButtonLevitationBlue 8s linear infinite;
-}
-
-.index-main-page__link-item-fact:hover::after {
-  animation: IndexButtonLevitationRed 8s linear infinite;
-}
-
 .index-main-page__link-item-fact::before {
   position: absolute;
   content: "";
@@ -383,7 +363,7 @@ a {
 .page-header--facts {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_main.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_main.webp");
 }
 
 .page-header__heading-fact {
@@ -444,6 +424,7 @@ a {
   justify-content: space-between;
   grid-row: span 1;
   grid-column: span 1;
+  cursor: pointer;
 }
 
 .facts__grid-element-min--meteo {
@@ -505,6 +486,7 @@ a {
   justify-content: space-between;
   grid-row: span 1;
   grid-column: span 2;
+  cursor: pointer;
 }
 
 
@@ -555,6 +537,7 @@ a {
   justify-content: space-between;
   grid-row: span 2;
   grid-column: span 2;
+  cursor: pointer;
 }
 
 .facts__grid-element-large--aes {
@@ -626,18 +609,6 @@ a {
 
 /* --------------------------*/
 
-.facts__button-detail-link {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 25px;
-  line-height: 34px;
-  padding-top: 35px;
-  padding-bottom: 33px;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
 /* Cтили форм*/
 .callback {
   color: #000;
@@ -683,13 +654,6 @@ a {
   line-height: 34px;
   font-weight: 400;
   margin-bottom: 25px;
-}
-
-.callback__tel-link {
-  font-size: 34px;
-  line-height: 46px;
-  font-weight: 400;
-  margin-bottom: 20px;
 }
 
 .callback__mail-link {
@@ -843,37 +807,37 @@ a {
 .page-header--facts-detail {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail.webp");
 }
 
 .page-header--facts-detail-meteo {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.webp");
 }
 
 .page-header--facts-detail-vvs {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.webp");
 }
 
 .page-header--facts-detail-medicine{
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.webp");
 }
 
 .page-header--facts-detail--atom-museum {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
 }
 
 .page-header--facts-detail--apl {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
 }
 
 .page-header__heading-fact-detail {
@@ -1116,7 +1080,7 @@ a {
 .page-header--personality {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/personality.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/personality.webp");
 }
 
 .page-header--personality .facts__wrapper {
@@ -1154,7 +1118,7 @@ a {
   justify-content: center;
   align-items: center;
   padding-top: 20px;
-  padding-bottom: 21px;
+  padding-bottom: 22px;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -1261,12 +1225,12 @@ a {
 .personality__name-box {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 432px;
+  left: -20px;
+  width: max-content;
   min-height: 80px;
   background-color: #B3C8DF;
   transform: skew(-30deg);
-  padding: 10px 40px;
+  padding: 10px 90px;
   z-index: 3;
 }
 
@@ -1280,7 +1244,7 @@ a {
   line-height: 37px;
   font-weight: 700;
   color: #015AB7;
-  text-align: center;
+  text-align: left;
   margin-bottom: 5px;
 }
 
@@ -1288,8 +1252,9 @@ a {
   font-size: 14px;
   line-height: 20px;
   font-weight: 400;
+  padding-left: 30px;
   color: #515151;
-  text-align: center;
+  text-align: left;
 }
 
 .personality-right-photo-desc::before {
@@ -1323,7 +1288,7 @@ a {
 .page-header--calendar {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/calendar_main.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/calendar_main.webp");
 }
 
 .page-header__heading-calendar {
@@ -1630,7 +1595,7 @@ a {
 .page-header--news {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/news-back.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/news-back.webp");
 }
 
 .page-header__heading-news {

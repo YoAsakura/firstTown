@@ -224,13 +224,6 @@
     margin-top: 50px;
   }
 
-  .facts__button-detail-link {
-    font-size: 12px;
-    line-height: 16px;
-    padding-top: 16.5px;
-    padding-bottom: 16.5px;
-  }
-
   .page-header__nav-wrapper {
     padding: 0 0 50px 0;
     display: flex;
@@ -375,10 +368,6 @@
     background: center center no-repeat url("../image/icon-inst-white.webp");
   }
 
-  .page-header__language-control {
-    align-self: center;
-  }
-
   .callback--facts {
     display: none;
   }
@@ -391,7 +380,7 @@
   .page-header--personality {
     width: 100%;
     min-height: 280px;
-    background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url(../image/personality-mobile.webp);
+    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url(../image/personality-mobile.webp);
   }
 
   .facts__wrapper {
@@ -483,10 +472,11 @@
   .personality__name-box {
     position: absolute;
     bottom: 0;
-    left: calc(50% - 120px);
-    width: 240px;
-    min-height: 40px;
-    padding: 3px 10px;
+    left: calc(50% - (var(--widthMaxConent) / 2));
+    width: var(--widthMaxConent);
+    --widthMaxConent: max-content;
+    min-height: 60px;
+    padding: 3px 35px;
     z-index: 3;
   }
 
@@ -499,15 +489,16 @@
   .personality__date {
     font-size: 6px;
     line-height: 8px;
+    padding-left: 15px;
   }
 
   .personality-right-photo-desc::after {
     content: "";
     position: absolute;
-    width: 20px;
-    height: 114px;
-    bottom: -60px;
-    left: calc(50% + 10px);
+    width: 15px;
+    height: 132px;
+    bottom: -32px;
+    left: calc(50% + 15px);
   }
 
   .personality-right-photo-desc::before {
@@ -515,8 +506,8 @@
     position: absolute;
     width: 40px;
     height: 140px;
-    bottom: -40px;
-    left: calc(50% + 70px);
+    bottom: -14px;
+    left: calc(50% + 55px);
   }
 
   .personality__img-box {
@@ -1032,10 +1023,6 @@
     font-size: 18px;
   }
 
-  .page-header__language-control-link {
-    font-size: 18px;
-  }
-
   .page-header__logo-image-link {
     width: 388px;
     height: 120px;
@@ -1044,10 +1031,6 @@
 
 @media (min-width: 768px) and (max-width: 1920px) {
   .page-header__nav-list-item .page-header__nav-link {
-    font-size: 1vw;
-  }
-
-  .page-header__language-control-link {
     font-size: 1vw;
   }
 }
