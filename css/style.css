@@ -436,7 +436,6 @@ a {
 
 /* Стиль для маленькой плитки фактов */
 .facts__grid-element-min {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
   min-width: 405px;
   min-height: 405px;
   padding: 40px;
@@ -446,6 +445,31 @@ a {
   grid-row: span 1;
   grid-column: span 1;
 }
+
+.facts__grid-element-min--meteo {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_meteo.jpg");
+}
+
+.facts__grid-element-min--vvs {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_vvs.png");
+}
+
+.facts__grid-element-min--apl {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_apl.png");
+}
+
+.facts__grid-element-min--first-university{
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_university.png");
+}
+
+.facts__grid-element-min--first-avaria{
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_avaria.png");
+}
+
+.facts__grid-element-min--first-buran{
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_buran.png");
+}
+
 
 .facts__grid-element-min .facts__grid-years {
   font-size: 55px;
@@ -473,7 +497,6 @@ a {
 
 /* Стиль для средней плитки фактов */
 .facts__grid-element-medium {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
   min-width: 830px;
   min-height: 405px;
   padding: 40px;
@@ -483,6 +506,20 @@ a {
   grid-row: span 1;
   grid-column: span 2;
 }
+
+
+.facts__grid-element-medium--radio-medicine {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_radio-medicine.png");
+}
+
+.facts__grid-element-medium--atom-museum {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom.png");
+}
+
+.facts__grid-element-medium--atom-ship {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom-ship.png");
+}
+
 
 .facts__grid-element-medium .facts__grid-years {
   font-size: 55px;
@@ -510,7 +547,6 @@ a {
 
 /* Стиль для большой плитки фактов */
 .facts__grid-element-large {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
   min-width: 830px;
   min-height: 830px;
   padding: 100px;
@@ -519,6 +555,10 @@ a {
   justify-content: space-between;
   grid-row: span 2;
   grid-column: span 2;
+}
+
+.facts__grid-element-large--aes {
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
 }
 
 .facts__grid-element-large .facts__grid-years {
@@ -593,7 +633,7 @@ a {
   font-size: 25px;
   line-height: 34px;
   padding-top: 35px;
-  padding-bottom: 35px;
+  padding-bottom: 33px;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -806,8 +846,38 @@ a {
   background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail.png");
 }
 
+.page-header--facts-detail-meteo {
+  width: 100%;
+  min-height: 680px;
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.png");
+}
+
+.page-header--facts-detail-vvs {
+  width: 100%;
+  min-height: 680px;
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.png");
+}
+
+.page-header--facts-detail-medicine{
+  width: 100%;
+  min-height: 680px;
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.png");
+}
+
+.page-header--facts-detail--atom-museum {
+  width: 100%;
+  min-height: 680px;
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.png");
+}
+
+.page-header--facts-detail--apl {
+  width: 100%;
+  min-height: 680px;
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.png");
+}
+
 .page-header__heading-fact-detail {
-  width: 50%;
+  width: 100%;
   margin: 0 auto;
   text-transform: uppercase;
   text-align: center;
@@ -816,6 +886,21 @@ a {
   color: #fff;
   font-weight: 400;
   padding-top: 80px;
+}
+
+.page-header__heading-fact-detail-medicine {
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.page-header__heading-fact-detail--atom-museum {
+  font-size: 100px;
+  line-height: 110px;
+}
+
+.page-header__heading-fact-detail--apl {
+  font-size: 100px;
+  line-height: 110px;
 }
 
 .fact-detail {
@@ -881,6 +966,31 @@ a {
   line-height: 94px;
   color: #015AB7;
   font-weight: 500;
+}
+
+.fact-detail__float-heading--meteo {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.fact-detail__float-heading--vvs {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.fact-detail__float-heading--medicine {
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.fact-detail__float-heading--atom-museum{
+  font-size: 50px;
+  line-height: 60px;
+}
+
+.fact-detail__float-heading--apl{
+  font-size: 50px;
+  line-height: 60px;
 }
 
 .fact-detail__desc:last-child {

@@ -65,31 +65,6 @@
             </div>
             <div class="personality__wrapper">
                 <div class="personality__box">
-                    <div class="person">
-                        <div class="person__wrapper">
-                        <div class="personality-left-desc">
-                            <ul class="personality__desc-list">
-                                <li class="personality__item">
-                                    <p class="personality__desc-heading">Советский физик-экспериментатор</p>
-                                </li>
-                                <li class="personality__item">
-                                    <p class="personality__desc">Создатель реактора с жидкометаллическим теплоносителем, который лёг в основу принципиально новой двигательной установки 
-                                        подводной лодки К-27</p>
-                                </li>
-                                <li class="personality__item">
-                                    <p class="personality__desc">Создатель ядерных реакторов на быстрых нейтронах</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="personality-right-photo-desc">
-                            <div class="personality__img-box"><img src="image/personal-img1.png" alt="Фотография Лейпунского Александра Ильича"></div>
-                            <div class="personality__name-box">
-                                <h4 class="personality__name">Лейпунский Александр Ильич</h4>
-                                <p class="personality__date">24 ноября (7 декабря) 1903 - 	14 августа 1972 </p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
 
                     <div class="person">
                         <div class="person__wrapper">
@@ -144,28 +119,6 @@
                         <div class="personality-left-desc">
                             <ul class="personality__desc-list">
                                 <li class="personality__item">
-                                    <p class="personality__desc-heading">Депутат Первой Государственной Думы Российской империи</p>
-                                </li>
-                                <li class="personality__item">
-                                    <p class="personality__desc">Безвозмездно пожертвовал под строительство часть своих земель. В благодарность правление железной дороги присвоило разъезду № 15 название Обнинское</p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="personality-right-photo-desc">
-                            <div class="personality__img-box"><img src="image/personal-img2.png" alt="Фотография Обнинского Виктора Петровича"></div>
-                            <div class="personality__name-box">
-                                <h4 class="personality__name">Обнинский Виктор Петрович</h4>
-                                <p class="personality__date">2 апреля 1867 - 20 марта 1916</p>
-                            </div>
-                        </div>
-                         </div>
-                    </div>
-
-                    <div class="person">
-                        <div class="person__wrapper">
-                        <div class="personality-left-desc">
-                            <ul class="personality__desc-list">
-                                <li class="personality__item">
                                     <p class="personality__desc-heading">Советский генетик биофизик радиобиолог</p>
                                 </li>
                                 <li class="personality__item">
@@ -186,30 +139,6 @@
                     </div>
                     </div>
 
-                    <div class="person">
-                        <div class="person__wrapper">
-                        <div class="personality-left-desc">
-                            <ul class="personality__desc-list">
-                                <li class="personality__item">
-                                    <p class="personality__desc-heading">Советский генетик биофизик радиобиолог</p>
-                                </li>
-                                <li class="personality__item">
-                                    <p class="personality__desc">Первооткрыватель пострадиационного восстановления клетки.</p>
-                                </li>
-                                <li class="personality__item">
-                                    <p class="personality__desc">Один из крупнейших мировых учёных в области радиационного мутагенеза и генетики человека. </p>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="personality-right-photo-desc">
-                            <div class="personality__img-box"><img src="image/personal-img3.png" alt="Фотография Лучника Николая Викторовича"></div>
-                            <div class="personality__name-box">
-                                <h4 class="personality__name">Лучник Николай Викторович</h4>
-                                <p class="personality__date">3 января 1922 - 5 августа 1993 </p>
-                            </div>
-                        </div>
-                    </div>
-                    </div>
                 </div>
             </div>
         </section>
@@ -224,11 +153,11 @@
                         <a class="callback__mail-link" href="mailto:redactor@admobninsk.ru">redactor@admobninsk.ru</a>
                     </div>
                     <div class="callback__right-form-box">
-                        <form action="#" method="GET">
+                        <form action="send.php" method="POST">
                             <div class="callback__form-box">
-                            <input class="callback__field" type="text" placeholder="Ваше имя">
-                            <input class="callback__field" type="text" placeholder="Номер телефона">
-                            <input class="callback__field" type="text" placeholder="Обнинск первый в...">
+                            <input class="callback__field" type="text" placeholder="Ваше имя" required>
+                            <input class="callback__field" type="text" placeholder="Номер телефона" required>
+                            <input class="callback__field" type="text" placeholder="Обнинск первый в..." required>
                             <button type="submit" class="callback__btn-submit btn"><span class="antiskew"></button>
                             </div>
                         </form>

@@ -126,7 +126,6 @@
   }
 
   .facts__grid-element-min {
-    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
     min-width: 140px;
     min-height: 140px;
     padding: 10px;
@@ -149,7 +148,6 @@
   }
 
   .facts__grid-element-medium {
-    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
     min-width: 300px;
     min-height: 140px;
     padding: 20px;
@@ -172,7 +170,6 @@
   }
 
   .facts__grid-element-large {
-    background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
     min-width: 300px;
     min-height: 300px;
     padding: 40px;
@@ -583,8 +580,8 @@
   }
 
   .fact-detail__float-heading {
-    font-size: 42px;
-    line-height: 46px;
+    font-size: 30px;
+    line-height: 32px;
   }
 
   .slider .prev {
