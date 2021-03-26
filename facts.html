@@ -14,11 +14,11 @@
     <header class="page-header page-header--facts">
         <div class="page-header__logo-box">
         <button class="page-header__burger-btn" type="button"></button>
-        <a href="index.html" class="page-header__logo-mobile-image-link"></a>
+        <a href="index.html" class="page-header__logo-mobile-image-link" aria-label="Главная страница"></a>
         </div>
         <nav class="page-header__nav">
             <div class="page-header__nav-wrapper">
-                <a href="index.html" class="page-header__logo-image-link"></a>
+                <a href="index.html" class="page-header__logo-image-link" aria-label="Главная страница"></a>
                 <ul class="page-header__nav-list">
                     <li class="page-header__nav-list-item page-header__nav-list-item--active-mobile"><a href="index.html" class="page-header__nav-link">Главная</a></li>
                     <li class="page-header__nav-list-item"><a href="facts.html" class=" page-header__nav-link page-header__nav-link--active">Факты</a></li>
@@ -33,8 +33,8 @@
                     <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--inst" href="#"></a></li>
               </ul>
                 <div class="page-header__language-control">
-                    <a href="#" class="page-header__language-control-link page-header__language-control-link--ru lang-active">Рус</a> /
-                    <a href="#" class="page-header__language-control-link page-header__language-control-link--eng">Eng</a>
+                    <a href="#" class="page-header__language-control-link page-header__language-control-link--ru lang-active" aria-label="Русский язык">Рус</a> /
+                    <a href="#" class="page-header__language-control-link page-header__language-control-link--eng" aria-label="Английский язык">Eng</a>
                 </div>
             </div>
         </nav>
@@ -142,8 +142,8 @@
                     <div class="callback__left-desc-box">
                         <h2 class="callback__heading">Не нашли интересующего факта и хотите расскать  свой факт? </h2>
                         <p class="callback__desc">Контакты Редакции администрации г. Обнинска:</p>
-                        <a class="callback__tel-link" href="tel:+7(484)395-85-85">+7 (484) 395-85-85</a>
-                        <a class="callback__mail-link" href="mailto:redactor@admobninsk.ru">redactor@admobninsk.ru</a>
+                        <a class="callback__tel-link" href="tel:+7(484)395-85-85" aria-label="Наш телефон">+7 (484) 395-85-85</a>
+                        <a class="callback__mail-link" href="mailto:redactor@admobninsk.ru" aria-label="Наша почта">redactor@admobninsk.ru</a>
                     </div>
                     <div class="callback__right-form-box">
                         <form action="send.php" method="POST">
@@ -151,7 +151,7 @@
                             <input class="callback__field" name="fio" type="text" placeholder="Ваше имя" required>
                             <input class="callback__field" name="email" type="text" placeholder="Номер телефона" required>
                             <input class="callback__field" name="text" type="text" placeholder="Обнинск первый в..." required>
-                            <button type="submit" class="callback__btn-submit btn"><span class="antiskew"></span></button>
+                            <button type="submit" class="callback__btn-submit btn" tabindex="1"><span class="antiskew"></span></button>
                             </div>
                         </form>
                     </div>
@@ -163,10 +163,10 @@
         <div class="page-footer__top-wrapper">
             <div class="page-footer__top-box">
                 <ul class="page-footer__social-list">
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--fb" href="#"></a></li>
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--vk" href="#"></a></li>
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--yt" href="#"></a></li>
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--inst" href="#"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--fb" href="#" aria-label="Мы в фейсбуке"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--vk" href="#" aria-label="Мы в Вконтакте"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--yt" href="#" aria-label="Мы на ютубе"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--inst" href="#" aria-label="Мы в инстаграмме"></a></li>
                 </ul>
             </div>
         </div>
@@ -184,8 +184,8 @@
                 </div>
                 <div class="page-footer__under-box">
                 <p>© 2021. Все права защищены. Администрация города Обнинска.</p>
-                <a href="mailto:redactor@admobninsk.ru"> Адрес электронной почты Редакции: redactor@admobninsk.ru</a>
-                <a href="tel:+7(484)395-85-85">Телефон Редакции: +7 (484) 395-85-85 </a>
+                <a href="mailto:redactor@admobninsk.ru" aria-label="Наш телефон"> Адрес электронной почты Редакции: redactor@admobninsk.ru</a>
+                <a href="tel:+7(484)395-85-85" aria-label="Наша почта">Телефон Редакции: +7 (484) 395-85-85 </a>
                 </div>
             </nav>
         </div>
