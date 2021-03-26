@@ -17,6 +17,7 @@ echo "<br>";
 echo $email;
 echo "<br>";
 echo $text;
+
 if (mail("zzzurking555@mail.ru", "Заявка с сайта ОбнинскГородаПервых", "ФИО:".$fio.". E-mail: ".$email ,"From: romamurunov@mail.ru \r\n"))
  {     echo "сообщение успешно отправлено";
 } else {
