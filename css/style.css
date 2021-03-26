@@ -230,7 +230,7 @@ a {
 .page-header__logo-image-link {
   width: 20vw;
   height: 6vw;
-  background: center center / contain no-repeat url("../image/logo-image.png");
+  background: center center / contain no-repeat url("../image/logo-image.webp");
   z-index: 1;
   display: block;
 }
@@ -383,7 +383,7 @@ a {
 .page-header--facts {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_main.jpg");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_main.webp");
 }
 
 .page-header__heading-fact {
@@ -447,27 +447,27 @@ a {
 }
 
 .facts__grid-element-min--meteo {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_meteo.jpg");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_meteo.webp");
 }
 
 .facts__grid-element-min--vvs {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_vvs.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_vvs.webp");
 }
 
 .facts__grid-element-min--apl {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_apl.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_apl.webp");
 }
 
 .facts__grid-element-min--first-university{
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_university.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_university.webp");
 }
 
 .facts__grid-element-min--first-avaria{
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_avaria.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_avaria.webp");
 }
 
 .facts__grid-element-min--first-buran{
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_buran.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_buran.webp");
 }
 
 
@@ -509,15 +509,15 @@ a {
 
 
 .facts__grid-element-medium--radio-medicine {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_radio-medicine.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_radio-medicine.webp");
 }
 
 .facts__grid-element-medium--atom-museum {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom.webp");
 }
 
 .facts__grid-element-medium--atom-ship {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom-ship.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom-ship.webp");
 }
 
 
@@ -558,7 +558,7 @@ a {
 }
 
 .facts__grid-element-large--aes {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.webp");
 }
 
 .facts__grid-element-large .facts__grid-years {
@@ -791,25 +791,25 @@ a {
 }
 
 .page-footer__social-link--fb {
-  background: center center no-repeat url("../image/icon-fb.png");
+  background: center center no-repeat url("../image/icon-fb.webp");
 }
 
 .page-footer__social-link--vk {
-  background: center center no-repeat url("../image/icon-vk.png");
+  background: center center no-repeat url("../image/icon-vk.webp");
 }
 
 .page-footer__social-link--yt {
-  background: center center no-repeat url("../image/icon-youtube.png");
+  background: center center no-repeat url("../image/icon-youtube.webp");
 }
 
 .page-footer__social-link--inst {
-  background: center center no-repeat url("../image/icon-inst.png");
+  background: center center no-repeat url("../image/icon-inst.webp");
 }
 
 .page-footer__top-wrapper {
   width: 100%;
   height: 365px;
-  background: center bottom / contain repeat-x url("../image/footer-back-town.png")#fff;
+  background: center bottom / contain repeat-x url("../image/footer-back-town.webp")#fff;
 }
 
 .page-footer-wrapper {
@@ -843,37 +843,37 @@ a {
 .page-header--facts-detail {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail.webp");
 }
 
 .page-header--facts-detail-meteo {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.webp");
 }
 
 .page-header--facts-detail-vvs {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.webp");
 }
 
 .page-header--facts-detail-medicine{
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.webp");
 }
 
 .page-header--facts-detail--atom-museum {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
 }
 
 .page-header--facts-detail--apl {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
 }
 
 .page-header__heading-fact-detail {
@@ -1116,7 +1116,7 @@ a {
 .page-header--personality {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/personality.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/personality.webp");
 }
 
 .page-header--personality .facts__wrapper {
@@ -1230,7 +1230,7 @@ a {
   height: 70px;
   top: calc(50% - 35px);
   left: 0;
-  background: center center / cover no-repeat url('../image/icon-person-name.png');
+  background: center center / cover no-repeat url('../image/icon-person-name.webp');
 }
 
 .personality__desc {
@@ -1249,7 +1249,7 @@ a {
   height: 100px;
   top: calc(50% - 50px);
   left: 0;
-  background: center center / cover no-repeat url('../image/icon-person-attainment.png');
+  background: center center / cover no-repeat url('../image/icon-person-attainment.webp');
 }
 
 
@@ -1323,7 +1323,7 @@ a {
 .page-header--calendar {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/calendar_main.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/calendar_main.webp");
 }
 
 .page-header__heading-calendar {
@@ -1441,7 +1441,7 @@ a {
   height: 220px;
   top: calc(50% - 110px);
   left: 90px;
-  background: center center no-repeat url(../image/calendar-back-item.png);
+  background: center center no-repeat url(../image/calendar-back-item.webp);
   z-index: 3;
 }
 
@@ -1497,7 +1497,7 @@ a {
     height: 220px;
     top: calc(50% - 110px);
     left: 90px;
-    background: center center no-repeat url(../image/calendar-back-item-active.png);
+    background: center center no-repeat url(../image/calendar-back-item-active.webp);
     z-index: 3;
 }
 
@@ -1617,11 +1617,11 @@ a {
 }
 
 .event--blue {
-  background: linear-gradient(to right, #015AB7 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-1.jpg");
+  background: linear-gradient(to right, #015AB7 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-1.webp");
 }
 
 .event--red {
-  background: linear-gradient(to right, #EF192C 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-2.jpg") ;
+  background: linear-gradient(to right, #EF192C 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-2.webp") ;
 }
 
 /* --------------------------*/
@@ -1630,7 +1630,7 @@ a {
 .page-header--news {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/news-back.png");
+  background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url("../image/news-back.webp");
 }
 
 .page-header__heading-news {

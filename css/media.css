@@ -271,7 +271,7 @@
     width: 200px;
     height: 60px;
     z-index: 6;
-    background: center center / contain no-repeat url("../image/logo-image.png");
+    background: center center / contain no-repeat url("../image/logo-image.webp");
     display: block;
   }
 
@@ -360,19 +360,19 @@
   }
 
   .page-header__social-link--fb {
-    background: center center no-repeat url("../image/icon-fb-white.png");
+    background: center center no-repeat url("../image/icon-fb-white.webp");
   }
 
   .page-header__social-link--vk {
-    background: center center no-repeat url("../image/icon-vk-white.png");
+    background: center center no-repeat url("../image/icon-vk-white.webp");
   }
 
   .page-header__social-link--yt {
-    background: center center no-repeat url("../image/icon-youtube-white.png");
+    background: center center no-repeat url("../image/icon-youtube-white.webp");
   }
 
   .page-header__social-link--inst {
-    background: center center no-repeat url("../image/icon-inst-white.png");
+    background: center center no-repeat url("../image/icon-inst-white.webp");
   }
 
   .page-header__language-control {
@@ -391,7 +391,7 @@
   .page-header--personality {
     width: 100%;
     min-height: 280px;
-    background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url(../image/personality-mobile.png);
+    background: linear-gradient(rgba(4, 20, 116, 0.4), rgba(4, 20, 116, 0.4)), center center / cover no-repeat url(../image/personality-mobile.webp);
   }
 
   .facts__wrapper {
@@ -782,7 +782,7 @@
   height: 100px;
   top: calc(50% - 50px);
   left: 30%;
-  background: center center / 100px 100px no-repeat url(../image/calendar-back-item.png);
+  background: center center / 100px 100px no-repeat url(../image/calendar-back-item.webp);
   z-index: 3;
 }
 
@@ -793,7 +793,7 @@
   height: 100px;
   top: calc(50% - 50px);
   left: 30%;
-  background: center center / 100px 100px no-repeat url(../image/calendar-back-item-active.png);
+  background: center center / 100px 100px no-repeat url(../image/calendar-back-item-active.webp);
   z-index: 3;
 }
 
