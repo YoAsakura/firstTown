@@ -222,7 +222,7 @@ a {
 .page-header__logo-image-link {
   width: 20vw;
   height: 6vw;
-  background: center center / contain no-repeat url("../image/logo-image.webp");
+  background: center center / contain no-repeat url("../image/logo-image.png");
   z-index: 1;
   display: block;
 }
@@ -238,8 +238,8 @@ a {
 
 .page-header__nav-list {
   display: flex;
-  justify-content: space-around;
-  width: 50%;
+  justify-content: space-between;
+  width: 60%;
   z-index: 3;
 }
 
@@ -309,8 +309,8 @@ a {
   align-items: center;
   font-size: 24px;
   text-transform: uppercase;
-  padding-top: 39px;
-  padding-bottom: 39px;
+  padding-top: 34px;
+  padding-bottom: 34px;
 }
 
 .antiskew {
@@ -363,13 +363,13 @@ a {
 .page-header--facts {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_main.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_main.jpg");
 }
 
 .page-header__heading-fact {
   text-transform: uppercase;
   text-align: center;
-  font-size: 186px;
+  font-size: 9.69vw;
   line-height: 254px;
   color: #fff;
   font-weight: 400;
@@ -428,27 +428,27 @@ a {
 }
 
 .facts__grid-element-min--meteo {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_meteo.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_meteo.jpg");
 }
 
 .facts__grid-element-min--vvs {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_vvs.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_vvs.png");
 }
 
 .facts__grid-element-min--apl {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_apl.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_apl.png");
 }
 
 .facts__grid-element-min--first-university{
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_university.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_university.png");
 }
 
 .facts__grid-element-min--first-avaria{
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_avaria.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_avaria.png");
 }
 
 .facts__grid-element-min--first-buran{
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_buran.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_buran.png");
 }
 
 
@@ -491,15 +491,15 @@ a {
 
 
 .facts__grid-element-medium--radio-medicine {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_radio-medicine.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_radio-medicine.png");
 }
 
 .facts__grid-element-medium--atom-museum {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom.png");
 }
 
 .facts__grid-element-medium--atom-ship {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom-ship.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_atom-ship.png");
 }
 
 
@@ -541,7 +541,7 @@ a {
 }
 
 .facts__grid-element-large--aes {
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/first-aes.png");
 }
 
 .facts__grid-element-large .facts__grid-years {
@@ -628,18 +628,18 @@ a {
 .callback__box {
   border-top: 2px solid #015AB7;
   min-height: 500px;
-  padding: 160px 180px;
+  padding: 160px 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .callback__left-desc-box {
-  width: 47%;
+  margin-right: 50px;
 }
 
 .callback__right-form-box {
-  width: 47%;
+  width: 50%;
 }
 
 .callback__heading {
@@ -723,7 +723,6 @@ a {
 /* Cтили подвал*/
 .page-footer {
   width: 100%;
-  background-color: #B3C8DF;
 }
 
 .page-footer__top-box {
@@ -755,34 +754,35 @@ a {
 }
 
 .page-footer__social-link--fb {
-  background: center center no-repeat url("../image/icon-fb.webp");
+  background: center center no-repeat url("../image/icon-fb.png");
 }
 
 .page-footer__social-link--vk {
-  background: center center no-repeat url("../image/icon-vk.webp");
+  background: center center no-repeat url("../image/icon-vk.png");
 }
 
 .page-footer__social-link--yt {
-  background: center center no-repeat url("../image/icon-youtube.webp");
+  background: center center no-repeat url("../image/icon-youtube.png");
 }
 
 .page-footer__social-link--inst {
-  background: center center no-repeat url("../image/icon-inst.webp");
+  background: center center no-repeat url("../image/icon-inst.png");
 }
 
 .page-footer__top-wrapper {
   width: 100%;
   height: 365px;
-  background: center bottom / contain repeat-x url("../image/footer-back-town.webp")#fff;
+  background: center bottom / contain repeat-x url("../image/footer-back-town.png");
 }
 
 .page-footer-wrapper {
-  max-width: 1920px;
+  width: 100%;
+  background-color: #acc9e0;
   margin: 0 auto;
 }
 
 .page-footer__nav-wrapper {
-  padding: 0 0 0;
+  padding: 0 120px 0;
   max-width: 1680px;
   display: flex;
   justify-content: space-between;
@@ -790,6 +790,7 @@ a {
   margin: 0 auto;
   border-bottom: 2px solid #fff;
   padding-bottom: 60px;
+  background-color: #acc9e0;
 }
 
 .page-footer__under-box {
@@ -797,7 +798,9 @@ a {
   max-width: 1680px;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 30px 0;
+  padding: 30px 120px;
+  font-size: 16px;
+  background-color: #acc9e0;
 }
 
 /* --------------------------*/
@@ -807,37 +810,43 @@ a {
 .page-header--facts-detail {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail.png");
 }
 
 .page-header--facts-detail-meteo {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-meteo.png");
 }
 
 .page-header--facts-detail-vvs {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-vvs.png");
 }
 
 .page-header--facts-detail-medicine{
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-medicine.png");
 }
 
 .page-header--facts-detail--atom-museum {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.png");
 }
 
 .page-header--facts-detail--apl {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/fact_detail-university.png");
+}
+
+.page-header--brandbook {
+  width: 100%;
+  min-height: 680px;
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/brandbook.png");
 }
 
 .page-header__heading-fact-detail {
@@ -875,10 +884,6 @@ a {
   max-width: 1920px;
   padding: 130px 120px 60px 120px;
   margin: 0 auto;
-}
-
-.fact-detail__box {
-  padding: 0 190px;
 }
 
 .fact-detail__float-box {
@@ -933,8 +938,8 @@ a {
 }
 
 .fact-detail__float-heading--meteo {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 46px;
+  line-height: 48px;
 }
 
 .fact-detail__float-heading--vvs {
@@ -998,46 +1003,49 @@ a {
 .fact-detail__slider-wrapper {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 150px 220px;
+  padding: 5vw 10vw;
 }
 
 /* Собственно сам слайдер */
 .slider {
-  max-width: 100%;
+  width: 100%;
   position: relative;
-  margin: 0 auto;
-  height: auto;
+  height: 50vw;
+}
+
+.slider .item {
+  width: 100%;
+  height: 100%;
 }
 
 /* Картинка мастабируется по отношению к родительскому элементу */
 .slider .item img {
   object-fit: cover;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 
 /* Кнопки вперед и назад */
 
-.slider .prev,
-.slider .next {
-  cursor: pointer;
-  position: absolute;
+.slider .prev, .slider .next {
   top: calc(50% - 30px);
   width: auto;
-  padding: 16px;
-  color: #000;
+  padding: 10px;
   font-size: 30px;
+  cursor: pointer;
+  position: absolute;
+  color: #000;
   transition: 0.4s ease;
   border-radius: 0 3px 3px 0;
 }
 
 .slider .next {
-  right: -60px;
+  right: -35px;
   border-radius: 3px 0 0 3px;
 }
 
 .slider .prev {
-  left: -60px;
+  left: -35px;
   border-radius: 3px 0 0 3px;
 }
 
@@ -1080,7 +1088,7 @@ a {
 .page-header--personality {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/personality.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/personality.png");
 }
 
 .page-header--personality .facts__wrapper {
@@ -1123,23 +1131,54 @@ a {
   line-height: 24px;
   text-transform: uppercase;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .personaluty__areas-item--active {
   background-color: #3697ED;
 }
 
-
-
 .personality__box {
-  display: flex;
   flex-direction: column;
   color: #000;
   padding: 0 0 150px 0;
+  overflow: hidden;
+  display: flex;
+}
+
+.personality__box--hidden{
+  transform: translateY(-100%);
+  height: 0;
+  padding: 0 0 0 0;
+}
+
+.personality__wrapper {
+  overflow: hidden;
+}
+
+.personality__box-dropdown {
+  height: auto;
+  padding: 0 0 150px 0;
+  transform: translateY(0);
+  animation: personalityDown  2s linear forwards;
 }
 
 .person {
   width: 100%;
+}
+
+.personality__person-not-active-box {
+  display: none;
+}
+
+@keyframes personalityDown {
+  0% {
+    transform: translateY(-100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .person__wrapper {
@@ -1194,7 +1233,7 @@ a {
   height: 70px;
   top: calc(50% - 35px);
   left: 0;
-  background: center center / cover no-repeat url('../image/icon-person-name.webp');
+  background: center center / cover no-repeat url('../image/icon-person-name.png');
 }
 
 .personality__desc {
@@ -1213,7 +1252,7 @@ a {
   height: 100px;
   top: calc(50% - 50px);
   left: 0;
-  background: center center / cover no-repeat url('../image/icon-person-attainment.webp');
+  background: center center / cover no-repeat url('../image/icon-person-attainment.png');
 }
 
 
@@ -1288,7 +1327,19 @@ a {
 .page-header--calendar {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/calendar_main.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/calendar_main.png");
+}
+
+.not-events-desc {
+  color: #000;
+  font-size: 30px;
+  line-height: 34px;
+  padding: 5% 10%;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
 .page-header__heading-calendar {
@@ -1314,16 +1365,24 @@ a {
   padding-right: 220px;
   padding-bottom: 60px;
   align-self: flex-end;
+  display: flex;
+  justify-content: center;
   margin-top: auto;
+  position: relative;
 }
 
 .page-header__month-wrapper {
+  overflow: hidden;
+  transition: width 0.5s ease-in-out;
+}
+
+.page-header__month-margin {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
   position: relative;
-  min-width: 530px;
+  transition: margin 0.5s ease-in-out;
 }
 
 
@@ -1331,15 +1390,20 @@ a {
   font-size: 30px;
   line-height: 34px;
   font-weight: 400;
-  margin: 0 12px;
+  min-width: 160px;
+  margin: 0 5px;
+  text-align: center;
   text-transform: uppercase;
-  transition: font-size 0.4s ease-in-out;
+  transition: font-size 0.5s ease-in-out;
 }
 
 .page-header__month--active {
+  color: tomato;
+  /*
   font-size: 50px;
   line-height: 57px;
   font-weight: 700;
+  */
 }
 
 .calendar {
@@ -1349,28 +1413,27 @@ a {
 .calendar__wrapper {
   max-width: 1920px;
   margin: 0 auto;
-  padding: 120px 250px 100px 250px;
+  padding: 120px 260px 100px 260px;
 }
 
 .calendar__box {
   display: grid;
   grid-auto-flow: dense;
   grid-template-rows: minmax(290px, max-content);
-  grid-template-columns: repeat(auto-fit, minmax(290px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
   grid-row-gap: 60px;
   grid-column-gap: 80px;
-  justify-content: center;
+  justify-items: start;
   color: #000;
   z-index: -4;
 }
 
 .calendar__item {
   padding: 20px 25px;
-  min-width: 290px;
-  min-height: 290px;
+  width: 290px;
+  height: 290px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   position: relative;
   border: 4px solid #B3C8DF;
   cursor: pointer;
@@ -1402,11 +1465,77 @@ a {
 .calendar__item::before {
   content: "";
   position: absolute;
-  width: 220px;
-  height: 220px;
-  top: calc(50% - 110px);
-  left: 90px;
-  background: center center no-repeat url(../image/calendar-back-item.webp);
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: -30px;
+  background: center center no-repeat url(../image/calendar-back-item.png);
+  z-index: 3;
+}
+
+.calendar__item--velo::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-velo-blue.png);
+  z-index: 3;
+}
+
+.calendar__item--radio::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-radio.png);
+  z-index: 3;
+}
+
+.calendar__item--atom::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-atom.png);
+  z-index: 3;
+}
+
+.calendar__item--note::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-note.png);
+  z-index: 3;
+}
+
+.calendar__item--young::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-yong.png);
+  z-index: 3;
+}
+
+.calendar__item--active::before{
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat  url(../image/calendar-back-item-active.png);
   z-index: 3;
 }
 
@@ -1455,29 +1584,21 @@ a {
   display: none;
 }
 
-.calendar__item--active::before{
-    content: "";
-    position: absolute;
-    width: 220px;
-    height: 220px;
-    top: calc(50% - 110px);
-    left: 90px;
-    background: center center no-repeat url(../image/calendar-back-item-active.webp);
-    z-index: 3;
-}
-
 .calendar__heading {
   font-size: 18px;
   line-height: 24px;
   font-weight: 700;
   z-index: 4;
-  margin-bottom: 40px;
+  max-height: 60%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .calendar__day-desc {
   font-size: 55px;
   line-height: 20px;
   font-weight: 500;
+  margin-bottom: 10px;
   z-index: 4;
   display: inline-block;
 }
@@ -1495,7 +1616,7 @@ a {
   padding: 8px;
   font-size: 30px;
   position: absolute;
-  top: calc(50% - 21px);
+  top: calc(50% - 11px);
   left: -30px;
 }
 
@@ -1505,7 +1626,7 @@ a {
   padding: 8px;
   font-size: 30px;
   position: absolute;
-  top: calc(50% - 21px);
+  top: calc(50% - 11px);
   right: -30px;
 }
 
@@ -1534,7 +1655,7 @@ a {
 }
 
 .event {
-  width: 49%;
+  width: 100%;
   color: #fff;
   padding: 30px;
   position: relative;
@@ -1546,7 +1667,7 @@ a {
 
 .event-heading {
   text-transform: uppercase;
-  width: 60%;
+  width: 70%;
   font-size: 22px;
   line-height: 30px;
   font-weight: 700;
@@ -1570,6 +1691,13 @@ a {
   margin-bottom: 13px;
 }
 
+.event-link {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  color: #87c2f3;
+}
+
 .event-science-desc {
   font-size: 22px;
   line-height: 30px;
@@ -1581,13 +1709,26 @@ a {
   margin-bottom: 0;
 }
 
-.event--blue {
-  background: linear-gradient(to right, #015AB7 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-1.webp");
+.event-velo {
+  background: linear-gradient(rgba(1, 90, 183, 0.8), rgba(1, 90, 184, 0.6)), center center / cover no-repeat url("../image/event-velo.jpg") ;
 }
 
-.event--red {
-  background: linear-gradient(to right, #EF192C 50%, rgba(196, 196, 196, 0) 180%), center center / cover no-repeat url("../image/event-2.webp") ;
+.event-conf-radio {
+  background: linear-gradient(rgba(1, 90, 183, 0.8), rgba(1, 90, 184, 0.6)), center center / cover no-repeat url("../image/event-conf-radio.jpg") ;
 }
+
+.event-note {
+  background: linear-gradient(rgba(1, 90, 183, 0.8), rgba(1, 90, 184, 0.6)), center center / cover no-repeat url("../image/event-note.jpg") ;
+}
+
+.event-youth {
+  background: linear-gradient(rgba(1, 90, 183, 0.8), rgba(1, 90, 184, 0.6)), center center / cover no-repeat url("../image/event-youth.jpg") ;
+}
+
+.event-radio {
+  background: linear-gradient(rgba(1, 90, 183, 0.8), rgba(1, 90, 184, 0.6)), center center / cover no-repeat url("../image/event-radio.jpg") ;
+}
+
 
 /* --------------------------*/
 
@@ -1595,7 +1736,7 @@ a {
 .page-header--news {
   width: 100%;
   min-height: 680px;
-  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/news-back.webp");
+  background: linear-gradient(rgba(1, 90, 184, 0.4), rgba(1, 90, 184, 0.4)), center center / cover no-repeat url("../image/news-back.png");
 }
 
 .page-header__heading-news {
@@ -1637,7 +1778,7 @@ a {
 
 .news__img-right {
   width: 40%;
-  height: 385px;
+  height: max-content;
 }
 
 .news__heading {
@@ -1683,7 +1824,6 @@ a {
   position: relative;
 }
 
-
 @media (min-width: 768px) {
 .news__img-right::before {
   content: "";
@@ -1702,8 +1842,8 @@ a {
   position: absolute;
   width: 25px;
   height: 250px;
-  bottom: 60px;
-  right: 10px;
+  bottom: 40px;
+  right: 20px;
   background-color: #DC3333;
   transform: skew(-30deg);
   z-index: -1;
@@ -1771,7 +1911,208 @@ a {
 
 /* --------------------------*/
 
+/* Брендбук*/
+
+.brandbook-desc {
+  width: 100%;
+  background-color: #015AB7;
+}
+
+.brandbook-desc__wrapper {
+  max-width: 1920px;
+  padding: 70px 20% 100px;
+}
+
+.brandbook-desc__heading {
+  font-size: 61px;
+  line-height: 70px;
+  font-weight: 400;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.brandbook-desc__under-heading-desc {
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.brandbook-desc__desc {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.brandbook-desc__desc:last-child {
+  margin-bottom: 0;
+}
+
+.obnins-logo-box {
+  width: 100%;
+}
+
+.obnins-logo-box__wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 150px 10%;
+  max-width: 1920px;
+}
+
+.obnins-logo-box__logo-vert {
+  width: 267px;
+  height: 346px;
+}
+
+.obnins-logo-box__logo-gorizontal {
+  width: 706px;
+  height: 201px;
+}
+
+.obnins-black-white {
+  width: 100%;
+}
+
+.obnins-black-white__wrapper {
+  max-width: 1920px;
+  display: flex;
+  flex-direction: row;
+}
+
+.obnins-black-white__white {
+  width: 50%;
+  background-color: #EBEBEB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.obnins-black-white__black {
+  width: 50%;
+  background-color: #424242;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.obnins-black-white__white-box {
+  width: 300px;
+  height: 400px;
+}
+
+.obnins-black-white__black-box {
+  width: 300px;
+  height: 400px;
+}
+
+.obnins-event {
+  width: 100%;
+}
+
+.obnins-event__wrapper {
+  max-width: 1920px;
+  padding: 200px 20%;
+}
+
+.obnins-event__desc {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.obnins-event__desc:last-child {
+  margin-bottom: 0;
+}
+
+.obnins-badge {
+  width: 100%;
+}
+
+.obnins-badge__image-box {
+  width: 100%;
+  height: 620px;
+}
+
+.obnins-badge__image-box img {
+  object-fit: cover;
+}
+
+.obnins-package {
+  width: 100%;
+}
+
+.obnins-package__image-box {
+  width: 100%;
+  height: 1000px;
+}
+
+.obnins-package__image-box img{
+  object-fit: cover;
+}
+
+.obnins-halt {
+  width: 100%;
+}
+
+.obnins-halt__image-box {
+  width: 100%;
+  height: 1000px;
+}
+
+.obnins-halt__image-box img{
+  object-fit: cover;
+}
+
+.obnins-leadership {
+  width: 100%;
+}
+
+.obnins-leadership__wrapper {
+  max-width: 1920px;
+  padding: 150px 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.obnins-leadership__desc {
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #000;
+}
+
+.obnins-leadership__desc-pdf-link {
+  padding-left: 7vw;
+  position: relative;
+  font-size: 30px;
+  line-height: 34px;
+  font-weight: 400;
+  color: #015AB7;
+}
+
+.obnins-leadership__desc-pdf-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: calc(50% - 2.6vw);
+  width: 5.2vw;
+  height: 5.2vw;
+  background: center center / 5.2vw 5.2vw  no-repeat url("../image/icon-leadership.svg");
+}
+
+
+/* --------------------------*/
+
 /* Правила анимаций*/
+
 
 @keyframes eventDown {
   0% {
@@ -1818,71 +2159,6 @@ a {
   100% {
     top: -700px;
     animation-timing-function: ease;
-  }
-}
-
-@keyframes IndexButtonLevitationBlue{
-  0% {
-    bottom: -32px;
-    left: 100px;
-    animation-timing-function: linear;
-  }
-
-  25% {
-    bottom: -42px;
-    left: 110px;
-    animation-timing-function: linear;
-  }
-
-  50% {
-    bottom: -22px;
-    left: 110px;
-    animation-timing-function: linear;
-  }
-
-  75% {
-    bottom: -42px;
-    left: 90px;
-    animation-timing-function: linear;
-  }
-
-  100% {
-    bottom: -32px;
-    left: 100px;
-    animation-timing-function: linear;
-  }
-}
-
-@keyframes IndexButtonLevitationRed{
-  0% {
-    bottom: 16px;
-    left: 55px;
-    animation-timing-function: linear;
-  }
-
-  25% {
-    bottom: 26px;
-    left: 65px;
-    animation-timing-function: linear;
-  }
-
-  50% {
-    bottom: 6px;
-    left: 65px;
-    animation-timing-function: linear;
-  }
-
-  75% {
-    bottom: 6px;
-    left: 45px;
-    animation-timing-function: linear;
-  }
-
-
-  100% {
-    bottom: 16px;
-    left: 55px;
-    animation-timing-function: linear;
   }
 }
 

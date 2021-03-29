@@ -1,25 +1,17 @@
 <?php
 $fio = $_POST['fio'];
 $email = $_POST['email'];
-$text = $_POST['text'];
+$textarea = $_POST['kosmo'];
 $fio = htmlspecialchars($fio);
 $email = htmlspecialchars($email);
-$text = htmlspecialchars($text);
 $fio = urldecode($fio);
 $email = urldecode($email);
-$text = urldecode($text);
 $fio = trim($fio);
 $email = trim($email);
-$text = trim($text);
 
-echo $fio;
-echo "<br>";
-echo $email;
-echo "<br>";
-echo $text;
+$fulltext = ' Имя: ' . $fio . ' Номер телефона: ' . $email . ' Текст формы: ' . $textarea;
 
-if (mail("zzzurking555@mail.ru", "Заявка с сайта ОбнинскГородаПервых", "ФИО:".$fio.". E-mail: ".$email ,"From: romamurunov@mail.ru \r\n"))
+if (mail("info@obninsk65.ru", "Заявка с сайта", $fulltext ,"From: info@obninsk65.ru \r\n"))
  {     echo "сообщение успешно отправлено";
-} else {
-    echo "при отправке сообщения возникли ошибки";
-}?>
+} 
+?>

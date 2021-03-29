@@ -27,12 +27,13 @@
                     <li class="page-header__nav-list-item"><a href="personality.html" class="page-header__nav-link">Личности</a></li>
                     <li class="page-header__nav-list-item"><a href="news.html" class="page-header__nav-link">Новости</a></li>
                     <li class="page-header__nav-list-item"><a href="calendar.html" class="page-header__nav-link">Календарь событий</a></li>
+                    <li class="page-header__nav-list-item"><a href="brandbook.html" class="page-header__nav-link">Брендбук</a></li>
                 </ul>
                 <ul class="page-header__social-list">
-                    <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--fb" href="#" aria-label="Мы в фейсбуке"></a></li>
-                    <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--vk" href="#" aria-label="Мы в Вконтакте"></a></li>
-                    <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--yt" href="#" aria-label="Мы на ютубе"></a></li>
-                    <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--inst" href="#" aria-label="Мы в инстаграмме"></a></li>
+                    <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--fb" target="_blank" href="https://ru-ru.facebook.com/Admobninsk" aria-label="Мы в фейсбуке"></a></li>
+                      <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--vk" target="_blank"  href="https://vk.com/obninsk_today" aria-label="Мы в Вконтакте"></a></li>
+                      <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--yt" target="_blank" href="https://www.youtube.com/channel/UCKTjItk7HSqw1bFFFJgToQg" aria-label="Мы на ютубе"></a></li>
+                      <li class="page-header__social-item"><a class="page-header__social-link page-header__social-link--inst" target="_blank" href="https://www.instagram.com/admobninsk/" aria-label="Мы в инстаграмме"></a></li>
               </ul>
             </div>
         </nav>
@@ -136,36 +137,39 @@
                 </div>
             </div>
         </section>
-        <section class="callback callback--facts">
+
+        <section class="callback callback--personality">
             <div class="callback__wrapper">
                 <div class="callback__box">
                     <div class="callback__left-desc-box">
-                        <h2 class="callback__heading">Не нашли интересующего факта и хотите расскать  свой факт? </h2>
-                        <p class="callback__desc">Контакты Редакции администрации г. Обнинска:</p>
-                        <a class="callback__mail-link" href="mailto:redactor@admobninsk.ru" aria-label="Наша почта">redactor@admobninsk.ru</a>
+                        <h2 class="callback__heading callback__heading--personality">Не нашли интересующей личности?</h2>
+                        <p class="callback__desc">Контакты Редакции администрации г.&nbsp;Обнинска:</p>
+                        <a class="callback__mail-link" href="mailto:Info@obninsk65.ru">Info@obninsk65.ru</a>
                     </div>
                     <div class="callback__right-form-box">
-                        <form action="romamurunov@mail.ru" type="post" enctype="text/plain">
+                        
+                        <form action="send.php" method="post">
                             <div class="callback__form-box">
-                            <input class="callback__field" name="fio" type="text" placeholder="Ваше имя" required>
-                            <input class="callback__field" name="email" type="text" placeholder="Номер телефона" required>
-                            <input class="callback__field" name="text" type="text" placeholder="Обнинск первый в..." required>
-                            <button type="submit" class="callback__btn-submit btn" tabindex="1"><span class="antiskew"></span></button>
-                            </div>
-                        </form>
+                            <input class="callback__field" type="text" name="fio" placeholder="Укажите ФИО" required>
+                            <input class="callback__field" type="text" name="email" placeholder="Номер телефона" required>
+                            <input class="callback__field" type="text" name="kosmo" placeholder="Обнинск первый в..." required>
+                            <button type="submit" class="callback__btn-submit btn"><span class="antiskew"></button>
+                             </div>
+                            </form>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
     <footer class="page-footer">
         <div class="page-footer__top-wrapper">
             <div class="page-footer__top-box">
                 <ul class="page-footer__social-list">
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--fb" href="#" aria-label="Мы в фейсбуке"></a></li>
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--vk" href="#" aria-label="Мы в Вконтакте"></a></li>
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--yt" href="#" aria-label="Мы на ютубе"></a></li>
-                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--inst" href="#" aria-label="Мы в инстаграмме"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--fb" target="_blank" href="https://ru-ru.facebook.com/Admobninsk" aria-label="Мы в фейсбуке"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--vk" target="_blank"  href="https://vk.com/obninsk_today" aria-label="Мы в Вконтакте"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--yt" target="_blank" href="https://www.youtube.com/channel/UCKTjItk7HSqw1bFFFJgToQg" aria-label="Мы на ютубе"></a></li>
+                      <li class="page-footer__social-item"><a class="page-footer__social-link page-footer__social-link--inst" target="_blank" href="https://www.instagram.com/admobninsk/" aria-label="Мы в инстаграмме"></a></li>
                 </ul>
             </div>
         </div>
@@ -179,12 +183,14 @@
                        <li class="page-header__nav-list-item"><a href="personality.html" class="page-header__nav-link">Личности</a></li>
                        <li class="page-header__nav-list-item"><a href="news.html" class="page-header__nav-link">Новости</a></li>
                        <li class="page-header__nav-list-item"><a href="calendar.html" class="page-header__nav-link">Календарь событий</a></li>
+                       <li class="page-header__nav-list-item"><a href="brandbook.html" class="page-header__nav-link">Брендбук</a></li>
                     </ul>
                 </div>
                 <div class="page-footer__under-box">
-                <p>© 2021. Все права защищены. Администрация города Обнинска.</p>
-                <a href="mailto:redactor@admobninsk.ru" aria-label="Наш телефон"> Адрес электронной почты Редакции: redactor@admobninsk.ru</a>
-                <a href="tel:+7(484)395-85-85" aria-label="Наша почта">Телефон Редакции: +7 (484) 395-85-85 </a>
+                <p>© 2021. Все права защищены.</p>
+                <a target="_blank" href="/politic.html">Политика конфиденциальности</a>
+                <a href="mailto:Info@obninsk65.ru" aria-label="Наш телефон"> Адрес электронной почты: Info@obninsk65.ru</a>
+                
                 </div>
             </nav>
         </div>
