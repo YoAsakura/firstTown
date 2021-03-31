@@ -224,8 +224,8 @@
                         
                         <form action="send.php" method="post">
                             <div class="callback__form-box">
-                            <input class="callback__field" type="text" name="fio" placeholder="Укажите ФИО" required>
-                            <input class="callback__field" type="text" name="email" placeholder="Номер телефона" required>
+                            <input class="callback__field" type="text" name="fio" pattern="[a-zA-Zа-яА-ЯёЁ ]+" placeholder="Укажите ФИО" required>
+                            <input class="callback__field" type="tel" name="email"  pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="Номер телефона" required>
                             <input class="callback__field" type="text" name="kosmo" placeholder="Первый космонавт..." required>
                             <button type="submit" class="callback__btn-submit btn"><span class="antiskew"></button>
                              </div>

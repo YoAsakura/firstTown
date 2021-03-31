@@ -463,16 +463,68 @@
     top: calc(50% - 20px);
   }
 
-  .callback--personality {
-    display: none;
-  }
-
   .personality-left-desc {
     width: 100%;
     margin-right: 0;
     padding-top: 80px;
     order: 2;
   }
+
+
+  .callback__right-form-box {
+    width: 100%;
+  }
+
+  .callback__wrapper {
+    padding: 0 35px;
+}
+
+  .callback__btn-submit {
+    width: 215px;
+    height: 65px;
+    margin-top: 30px;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.callback__heading {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 30px;
+}
+
+.callback__left-desc-box {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.callback__desc {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.callback__mail-link {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+.callback__box {
+    min-height: 300px;
+    padding: 50px 0;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.callback__field {
+  font-size: 18px;
+  line-height: 24px;
+  padding: 8px 13px;
+  margin-bottom: 30px;
+}
 
   .personality-right-photo-desc {
     width: 100%;
@@ -839,14 +891,58 @@
   z-index: 3;
 }
 
-.calendar__item--active::before {
+.calendar__item--velo-active::before {
   content: "";
   position: absolute;
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height: 80px;
   top: calc(50% - 50px);
-  right: -10px;
-  background: center center / 100px 100px no-repeat url(../image/calendar-back-item-active.png);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-velo-red.png);
+  z-index: 3;
+}
+
+.calendar__item--radio-active::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 50px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-radio-red.png);
+  z-index: 3;
+}
+
+.calendar__item--atom-active::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 50px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-atom-red.png);
+  z-index: 3;
+}
+
+.calendar__item--note-active::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 50px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-note-red.png);
+  z-index: 3;
+}
+
+.calendar__item--young-active::before {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  top: calc(50% - 50px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-young-red.png);
   z-index: 3;
 }
 

@@ -142,7 +142,7 @@
             <div class="callback__wrapper">
                 <div class="callback__box">
                     <div class="callback__left-desc-box">
-                        <h2 class="callback__heading callback__heading--personality">Не нашли интересующей личности?</h2>
+                        <h2 class="callback__heading callback__heading--personality">Не нашли интересующего факта и хотите рассказать свой факт?</h2>
                         <p class="callback__desc">Контакты Редакции администрации г.&nbsp;Обнинска:</p>
                         <a class="callback__mail-link" href="mailto:Info@obninsk65.ru">Info@obninsk65.ru</a>
                     </div>
@@ -150,8 +150,8 @@
                         
                         <form action="send.php" method="post">
                             <div class="callback__form-box">
-                            <input class="callback__field" type="text" name="fio" placeholder="Укажите ФИО" required>
-                            <input class="callback__field" type="text" name="email" placeholder="Номер телефона" required>
+                            <input class="callback__field" type="text" name="fio" pattern="[a-zA-Zа-яА-ЯёЁ ]+" placeholder="Укажите ФИО" required>
+                            <input class="callback__field" type="tel" name="email"  pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" placeholder="Номер телефона" required>
                             <input class="callback__field" type="text" name="kosmo" placeholder="Обнинск первый в..." required>
                             <button type="submit" class="callback__btn-submit btn"><span class="antiskew"></button>
                              </div>

@@ -1395,6 +1395,7 @@ a {
   text-align: center;
   text-transform: uppercase;
   transition: font-size 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .page-header__month--active {
@@ -1536,6 +1537,61 @@ a {
   top: calc(50% - 80px);
   right: 0px;
   background: center center / cover no-repeat  url(../image/calendar-back-item-active.png);
+  z-index: 3;
+}
+
+.calendar__item--velo-active::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-velo-red.png);
+  z-index: 3;
+}
+
+.calendar__item--radio-active::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-radio-red.png);
+  z-index: 3;
+}
+
+.calendar__item--atom-active::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-atom-red.png);
+  z-index: 3;
+}
+
+.calendar__item--note-active::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-note-red.png);
+  z-index: 3;
+}
+
+.calendar__item--young-active::before {
+  content: "";
+  position: absolute;
+  width: 165px;
+  height: 165px;
+  top: calc(50% - 80px);
+  right: 0px;
+  background: center center / cover no-repeat url(../image/calendar-young-red.png);
   z-index: 3;
 }
 

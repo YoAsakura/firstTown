@@ -7,7 +7,9 @@ const CalendarBack = document.querySelector('.calendar__event-active-background'
 for (let i = 0; i < CalendarItemArr.length; i++) {
     CalendarItemArr[i].addEventListener("click", function () {
         if (!CalendarEventsArr[i]) {} else {
-            CalendarItemArr[i].classList.add('calendar__item--active');
+
+            let currentSel = CalendarItemArr[i].classList[1];
+            CalendarItemArr[i].classList.add(currentSel + '-active');
         }
 
         if (!CalendarEventsArr[i]) {} else {
@@ -24,7 +26,8 @@ function eventHidden() {
     });
 
     CalendarItemArr.forEach(function (item) {
-        item.classList.remove('calendar__item--active');
+        let currentSel = item.classList[1];
+        item.classList.remove(currentSel + '-active');
     });
 
     CalendarBack.style.display = "none";
@@ -169,4 +172,27 @@ function notEventsDescFoo() {
 
 notEventsDescFoo()
 monthGG();
+
+monthItem.forEach(function(item) {
+    item.addEventListener('click', function() {
+    
+        if(item.classList.contains('page-header__month--active') == true) {} else {
+            monthItem.forEach(function(item){
+                item.classList.remove('page-header__month--active');
+            })
+    
+            item.classList.add('page-header__month--active');
+        }
+
+        for (let i = 0; i <  monthItem.length; i++) {
+            if(monthItem[i].classList.contains('page-header__month--active') == true) {
+                mothIndex = i;
+                break
+            }
+        }
+
+        monthGG();
+        notEventsDescFoo()
+     });
+    })
 /* --------------------------*/
